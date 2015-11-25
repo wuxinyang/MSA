@@ -26,5 +26,19 @@ namespace Nandoso.Controllers
 
             return View();
         }
+
+        public ActionResult Specials()
+        {
+            ViewBag.Message = "Your Special";
+
+            return View();
+        }
+
+        public ActionResult Feedback()
+        {
+            ViewBag.Message = "Your Feedback";
+
+            return View();
+        }
     }
 }
