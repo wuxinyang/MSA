@@ -1,5 +1,9 @@
 ﻿<!DOCTYPE html>
+<script src="facebooklogin.js"></script>
+
 <html>
+
+
 <head>
     <title>Nandoso - Home</title>
     <meta charset="utf-8" />
@@ -7,6 +11,8 @@
     <link rel="stylesheet" href="../Content/bootstrap.min.css " />
 </head>
 <body>
+    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+    <div id="status"></div>
     <div class="nav">
         <div class="container">
             <ul>
