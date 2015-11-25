@@ -1,51 +1,44 @@
 ﻿@{
     ViewBag.Title = "Special";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-
+<html>
 <head>
-    <title>Nandoso - Feedback</title>
+    <title>Nandoso - Today's Special</title>
     <meta charset="utf-8" />
-    @*<link rel="stylesheet" href="../styles/style.css" />*@
+    <link rel="stylesheet" href="../styles/style.css" />
     <link rel="stylesheet" href="../Content/bootstrap.min.css " />
 </head>
 <body>
 
-    <img src="/img/chicken.jpg" style="width:427px;height:328px;">
-    <div class="feedback">
-        <div class="row">
-            <div class="col-md-3 col-md-offset-2">
+    <img src="/img/chicken.jpg" style="width:428px;height:328px;">
 
-                <div class="feedbackform">
-                    <h1>Feedback Form</h1>
-                    <form action="index.html" method="post">
-                        <p>First Name:</p>
-                        <input type="text" name="name" />
-                        <br />
-                        <br />
-                        <p>Email:</p>
-                        <input type="email" name="email" />
-                        <br />
-                        <br />
-                        <p>Your feedback</p>
-                        <textarea name="feedback" rows="10" cols="30"></textarea><br />
-                        <input type="submit" value="submit" />
-                    </form>
-                </div>
+    <div class="special">
+        <div class="container">
+            <div class="col">
+                <h2>Special Offer1</h2>
+                <h3>$10 for 1 chicken Give this code to cashier</h3>
+                <h1 style="background-color:lightgrey">XXDFC</h1>
+
             </div>
-            <div class="col-md-2 col-md-offset-2">
-                <div class="contact">
-                    <h1>Contact Us</h1>
-                    <p><strong>Telephone:</strong> 0800-NANDOSO (0800-6263-676)</p>
-                    <p><strong>Email:</strong>support@nandoso.com</p>
-                    <p><strong>Address:</strong>Mt. Glen Eden, New Zealand</p>
-                    <p><strong>Hours:</strong>11:00AM-7:30PM Mondays-Fridays</p>
-                </div>
+            <div class="col">
+                <h2>Special Offer2</h2>
+                <h3>$20 for 3 chickens Give this code to cashier</h3>
+                <h1 style="background-color:lightgrey">ASDEF </h1>
+
+            </div>
+            <div class="col">
+                <h2>Special Offer3</h2>
+                <h3>$30 for 5 chickens Give this code to cashier</h3>
+                <h1 style="background-color:lightgrey">SDXZD</h1>
+
+            </div>
+            <div class="col">
+                <h2>Special Offer4</h2>
+                <h3>$60 for 11 chickens Give this code to cashier</h3>
+                <h1 style="background-color:lightgrey">SDDXD</h1>
+
             </div>
         </div>
     </div>
 </body>
-
-
+</html>

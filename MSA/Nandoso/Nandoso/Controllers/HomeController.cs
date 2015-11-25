@@ -40,5 +40,12 @@ namespace Nandoso.Controllers
 
             return View();
         }
+
+        public ActionResult Chat()
+        {
+            ViewBag.Message = "Chat";
+
+            return View();
+        }
     }
 }
