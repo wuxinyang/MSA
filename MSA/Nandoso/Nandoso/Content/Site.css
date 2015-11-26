@@ -22,3 +22,33 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.jumbotron {
+    background-image: url(../img/homepage-carousel-worldwide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: palevioletred;
+}
+
+
+.col-md-6 {
+    background-image: url(../img/home-from-the-usa.jpg);
+    color: white;
+    width: 380px;
+    height: 180px;
+    border-width: 20px;
+}
+
+.col-md-5 {
+    background-image: url(../img/home-our-story.jpg);
+    color: white;
+    width: 380px;
+    height: 180px;
+}
+
+.col-md-4 {
+    background-image: url(../img/home-peri-peri.jpg);
+    color: white;
+    width: 380px;
+    height: 180px;
+}
