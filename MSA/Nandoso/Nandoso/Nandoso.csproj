@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{16A737CD-FC5D-4D8E-BBEA-97D7A54F3137}</ProjectGuid>
+    <ProjectGuid>{EC1E6D73-04F3-4304-B9E8-993090FDB4ED}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -199,6 +199,10 @@
     <Content Include="img\chicken.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\nandoso123 - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\nandoso123 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\nandoso123 - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\nandoso123 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -276,9 +280,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>16087</DevelopmentServerPort>
+          <DevelopmentServerPort>43894</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:16087/</IISUrl>
+          <IISUrl>http://localhost:43894/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
