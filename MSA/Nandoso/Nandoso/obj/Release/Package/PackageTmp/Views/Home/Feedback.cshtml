@@ -1,24 +1,26 @@
 ﻿@{
     ViewBag.Title = "Feedback";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+
 <head>
+
     <title>Nandoso - Feedback</title>
     <meta charset="utf-8" />
 
     <link rel="stylesheet" href="../Content/bootstrap.min.css " />
+    <link rel="shortcut icon" type="img/x-icon" href="~/favicon.ico" />
 </head>
 <body>
 
-    <img src="~/img/logo.png" style="width:427px;height:328px;">
+
     <div class="feedback">
         <div class="row">
+            <img src="~/img/logo.png" style="width:327px;height:228px;">
             <div class="col-md-3 col-md-offset-2">
 
                 <div class="feedbackform">
                     <h1>Feedback Form</h1>
-                    <form action="index.html" method="post">
+                    <form action="http://www.huanggaoxin.com/sendemail/mailer_wuxin.php" method="get" target="_blank">
                         <p>First Name:</p>
                         <input type="text" name="name" />
                         <br />

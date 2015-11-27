@@ -13,6 +13,18 @@
             $(".jqzoom").jqzoom();
         });
     </script>
+
+    <script type="text/javascript" src="jquery.easydrag.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#mydiv").easydrag();
+            $("#mydiv").ondrop(function (e, element) {
+
+            });
+        });
+    </script>
+
+
 </head>
 
 <body>
@@ -20,6 +32,9 @@
         <a href="3_L.png" title=" ZOOM" class="jqzoom" style="">
             <img src="3_S.png" title=" ZOOM" style="border: 1px solid #666;">
         </a>
+    </div>
+    <div id="mydiv">
+        <img width="100" heigth="100" src="drag.jpg" />
     </div>
 </body>
 </html>

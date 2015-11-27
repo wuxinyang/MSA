@@ -1,0 +1,3963 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA3ILGjtOY=?=
+Subject: fromvega.com ? Blog Archive ? EasyDrag jQuery Plugin
+Date: Thu, 4 Nov 2010 22:11:40 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CB7C6D.418CB110"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6000.16545
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CB7C6D.418CB110
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD=20
+profile=3Dhttp://gmpg.org/xfn/11><TITLE>fromvega.com =C2=BB Blog Archive =
+=C2=BB EasyDrag jQuery Plugin</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DUTF-8">
+<META content=3D"MSHTML 6.00.6000.16681" name=3DGENERATOR><!-- leave =
+this for stats --><LINK media=3Dscreen=20
+href=3D"http://fromvega.com/wordpress/wp-content/themes/default/style.css=
+"=20
+type=3Dtext/css rel=3Dstylesheet><LINK title=3D"fromvega.com RSS Feed"=20
+href=3D"http://fromvega.com/wordpress/feed/" type=3Dapplication/rss+xml=20
+rel=3Dalternate><LINK href=3D"http://fromvega.com/wordpress/xmlrpc.php"=20
+rel=3Dpingback>
+<STYLE type=3Dtext/css media=3Dscreen>#page {
+	BACKGROUND: =
+url(http://fromvega.com/wordpress/wp-content/themes/default/images/kubric=
+kbgwide.jpg) repeat-y 50% top; BORDER-TOP-STYLE: none; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+</STYLE>
+<LINK title=3DRSD href=3D"http://fromvega.com/wordpress/xmlrpc.php?rsd"=20
+type=3Dapplication/rsd+xml rel=3DEditURI>
+<SCRIPT type=3Dtext/javascript>
+	function spamBam_storeSession(sessionID) {
+		spamBam_createCookie('spambam_session',sessionID,7)
+	}
+	function spamBam_createCookie(name,value,days) {
+		if (days) {
+			var date =3D new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			var expires =3D "; expires=3D"+date.toGMTString();
+		}
+		else var expires =3D "";
+		document.cookie =3D name+"=3D"+value+expires+"; path=3D/";
+	}
+=09
+	function spamBam_readCookie(name) {
+		var nameEQ =3D name + "=3D";
+		var ca =3D document.cookie.split(';');
+		for(var i=3D0;i < ca.length;i++) {
+			var c =3D ca[i];
+			while (c.charAt(0)=3D=3D' ') c =3D c.substring(1,c.length);
+			if (c.indexOf(nameEQ) =3D=3D 0) return =
+c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	}
+=09
+	function spamBam_eraseCookie(name) {
+		spamBam_createCookie(name,"",-1);
+	}
+	</SCRIPT>
+
+<STYLE type=3Dtext/css>A.rsswidget {
+	DISPLAY: inline! important
+}
+A.rsswidget IMG {
+	BACKGROUND: orange; COLOR: white
+}
+</STYLE>
+
+<STYLE type=3Dtext/css>.recentcomments A {
+	PADDING-RIGHT: 0px! important; DISPLAY: inline! important; =
+PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: =
+0px; PADDING-TOP: 0px! important
+}
+</STYLE>
+</HEAD>
+<BODY>
+<DIV id=3Dpage>
+<DIV id=3Dheader>
+<DIV id=3Dheaderimg>
+<H1><A href=3D"http://fromvega.com/wordpress/">fromvega.com</A></H1>
+<DIV class=3Ddescription>Throwing code to the wind</DIV></DIV></DIV>
+<HR>
+
+<DIV class=3Dwidecolumn id=3Dcontent>
+<DIV class=3Dnavigation>
+<DIV class=3Dalignleft>=C2=AB <A=20
+href=3D"http://fromvega.com/wordpress/2007/05/17/easy-xml-with-java-xml-b=
+inding/">Easy=20
+XML with Java - XML Binding</A></DIV>
+<DIV class=3Dalignright><A=20
+href=3D"http://fromvega.com/wordpress/2007/10/31/easydrag-update/">EasyDr=
+ag=20
+Update</A> =C2=BB</DIV></DIV>
+<DIV class=3Dpost id=3Dpost-17>
+<H2><A title=3D"Permanent Link: EasyDrag jQuery Plugin"=20
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/"=
+=20
+rel=3Dbookmark>EasyDrag jQuery Plugin</A></H2>
+<DIV class=3Dentry>
+<BLOCKQUOTE>
+  <P><STRONG>16/07/08 UPDATE:</STRONG> A new beta version is now =
+available with=20
+  some bug corrections. Thanks to Randy for the useful feedback! </P>
+  <P><STRONG>29/06/08 UPDATE:</STRONG> Handler feature added! Finally I =
+decided=20
+  to add a little piece of extra functionality to the EasyDrag plugin. =
+It has=20
+  been constantly requested, so now you can download and test it. I will =
+be=20
+  releasing it as a final version after some feedback, so please let me =
+know if=20
+  it works for you. </P>
+  <H3>How does it work?</H3>
+  <P>It=E2=80=99s very simple, first you call the easydrag() method as =
+in the old=20
+  version and then you call the setHandler() method passing to it the id =
+of the=20
+  element that will act as the handle. The handle MUST be a child =
+element of the=20
+  content that will be dragged.</P>
+  <DIV class=3Dwp_syntax>
+  <DIV class=3Dcode><PRE class=3Djavascript>$<SPAN style=3D"COLOR: =
+#66cc66">(</SPAN><SPAN style=3D"COLOR: #3366cc">"#box2"</SPAN><SPAN =
+style=3D"COLOR: #66cc66">)</SPAN>.<SPAN style=3D"COLOR: =
+#006600">easydrag</SPAN><SPAN style=3D"COLOR: #66cc66">(</SPAN><SPAN =
+style=3D"COLOR: #66cc66">)</SPAN>;
+$<SPAN style=3D"COLOR: #66cc66">(</SPAN><SPAN style=3D"COLOR: =
+#3366cc">"#box2"</SPAN><SPAN style=3D"COLOR: #66cc66">)</SPAN>.<SPAN =
+style=3D"COLOR: #006600">setHandler</SPAN><SPAN style=3D"COLOR: =
+#66cc66">(</SPAN><SPAN style=3D"COLOR: #3366cc">'handler3'</SPAN><SPAN =
+style=3D"COLOR: #66cc66">)</SPAN>;</PRE></DIV></DIV>
+  <H3>Files</H3>
+  <P><STRONG><A=20
+  =
+href=3D"http://fromvega.com/code/easydrag/jquery.easydrag.handler.beta2.j=
+s">jquery.easydrag.handler.beta2.js</A></STRONG>=20
+  </P></BLOCKQUOTE>
+<P>It has been a while since my last post, mainly because I=E2=80=99m =
+currently a little=20
+busy with some projects. In one of these projects I had to add a =
+drag-and-drop=20
+behavior to some DOM elements, and for that I have created the EasyDrag =
+jQuery=20
+plug-in that I=E2=80=99ll share with you now.</P>
+<P>Its main purpose is to add the ability to drag and drop almost any =
+DOM=20
+element without much effort. So it=E2=80=99s simple to use and you can =
+also attach=20
+handlers both to the drag and to the drop events, which permits you to =
+extend=20
+the basic functionality to whatever you need.=20
+<P><A id=3Dmore-17></A></P>
+<H3>How to use</H3>
+<P>To be able to use this plugin you should set the element you want to =
+drag as=20
+absolute positioned and set an unique id for it (although it=E2=80=99s =
+not strictly=20
+necessary because the script will try to set both for use otherwise). =
+You are=20
+also advised to set the size of the element. Finally you need to add a =
+code=20
+similar to the following example into your page.</P>
+<DIV class=3Dwp_syntax>
+<DIV class=3Dcode><PRE class=3Djavascript>&lt;script src=3D<SPAN =
+style=3D"COLOR: #3366cc">"jquery.easydrag.js"</SPAN> type=3D<SPAN =
+style=3D"COLOR: #3366cc">"text/javascript"</SPAN>&gt;&lt;/script&gt;
+&lt;script type=3D<SPAN style=3D"COLOR: =
+#3366cc">"text/javascript"</SPAN>&gt;
+$<SPAN style=3D"COLOR: #66cc66">(</SPAN><SPAN style=3D"FONT-WEIGHT: =
+bold; COLOR: #003366">function</SPAN><SPAN style=3D"COLOR: =
+#66cc66">(</SPAN><SPAN style=3D"COLOR: #66cc66">)</SPAN><SPAN =
+style=3D"COLOR: #66cc66">{</SPAN>
+	<SPAN style=3D"COLOR: #009900; FONT-STYLE: italic">// add drag and drop =
+functionality to #box1</SPAN>
+	$<SPAN style=3D"COLOR: #66cc66">(</SPAN><SPAN style=3D"COLOR: =
+#3366cc">"#box1"</SPAN><SPAN style=3D"COLOR: #66cc66">)</SPAN>.<SPAN =
+style=3D"COLOR: #006600">easydrag</SPAN><SPAN style=3D"COLOR: =
+#66cc66">(</SPAN><SPAN style=3D"COLOR: #66cc66">)</SPAN>;
+&nbsp;
+        <SPAN style=3D"COLOR: #009900; FONT-STYLE: italic">// set a =
+function to be called on a drop event</SPAN>
+	$<SPAN style=3D"COLOR: #66cc66">(</SPAN><SPAN style=3D"COLOR: =
+#3366cc">"#box1"</SPAN><SPAN style=3D"COLOR: #66cc66">)</SPAN>.<SPAN =
+style=3D"COLOR: #006600">ondrop</SPAN><SPAN style=3D"COLOR: =
+#66cc66">(</SPAN><SPAN style=3D"FONT-WEIGHT: bold; COLOR: =
+#003366">function</SPAN><SPAN style=3D"COLOR: #66cc66">(</SPAN>e, =
+element<SPAN style=3D"COLOR: #66cc66">)</SPAN><SPAN style=3D"COLOR: =
+#66cc66">{</SPAN> <SPAN style=3D"COLOR: #000066">alert</SPAN><SPAN =
+style=3D"COLOR: #66cc66">(</SPAN>element + <SPAN style=3D"COLOR: =
+#3366cc">" Dropped"</SPAN><SPAN style=3D"COLOR: #66cc66">)</SPAN>; <SPAN =
+style=3D"COLOR: #66cc66">}</SPAN><SPAN style=3D"COLOR: =
+#66cc66">)</SPAN>;
+<SPAN style=3D"COLOR: #66cc66">}</SPAN><SPAN style=3D"COLOR: =
+#66cc66">)</SPAN>;
+&lt;/script&gt;</PRE></DIV></DIV>
+<SCRIPT src=3D"http://fromvega.com/code/easydrag/jquery-1.1.3.1.pack.js" =
+
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT src=3D"http://fromvega.com/code/easydrag/jquery.easydrag.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>=0A=
+$(function(){=0A=
+	// add drag and drop functionality to #box1=0A=
+	$("#box1").easydrag();=0A=
+// set a function to be called on a drop event=0A=
+	$("#box1").ondrop(function(e, element){ alert(element + " Dropped"); });=0A=
+});=0A=
+</SCRIPT>
+
+<P></P>
+<DIV id=3Dbox1=20
+style=3D"BORDER-RIGHT: orange 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: =
+orange 2px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: =
+orange 2px solid; WIDTH: 200px; PADDING-TOP: 5px; BORDER-BOTTOM: orange =
+2px solid; BACKGROUND-COLOR: yellow">It=E2=80=99s=20
+the #box1 of the above example. Try dragging it and watch the alert when =
+you=20
+drop it.</DIV>
+<P></P>
+<H3>Events</H3>
+<P>You can attach a function to be called when an element is being =
+dragged and=20
+also another function to be called when the element is dropped passing =
+them as a=20
+parameter to <STRONG>.ondrag</STRONG> and to <STRONG>.ondrop</STRONG> =
+functions=20
+of the plugin. The plugin will pass an event object and the current =
+element as=20
+the parameter to the attached functions.</P>
+<H3>Event Bubbling</H3>
+<P>By default EasyDrag is set to stop event bubbling so you can drag a =
+div=20
+around without any problem but if you have elements inside a div, like a =
+form=20
+for instance, you need to enable event bubbling to be able to interact =
+with=20
+them.</P>
+<P>To enable event bubbling simply pass =E2=80=9Ctrue=E2=80=9D to the =
+easydrag function as in=20
+the following example: </P>
+<DIV class=3Dwp_syntax>
+<DIV class=3Dcode><PRE class=3Djavascript>$<SPAN style=3D"COLOR: =
+#66cc66">(</SPAN><SPAN style=3D"COLOR: #3366cc">"#box1"</SPAN><SPAN =
+style=3D"COLOR: #66cc66">)</SPAN>.<SPAN style=3D"COLOR: =
+#006600">easydrag</SPAN><SPAN style=3D"COLOR: #66cc66">(</SPAN><SPAN =
+style=3D"FONT-WEIGHT: bold; COLOR: #003366">true</SPAN><SPAN =
+style=3D"COLOR: #66cc66">)</SPAN>;</PRE></DIV></DIV>
+<H3>Control</H3>
+<P>You can use the methods <STRONG>.dragOff()</STRONG> and=20
+<STRONG>.dragOn()</STRONG> to disable and enable the dragging behavior=20
+respectively.</P>
+<H3>Files</H3>
+<P><STRONG><A=20
+href=3D"http://fromvega.com/code/easydrag/jquery.easydrag.js">jquery.easy=
+drag.js</A></STRONG></P>
+<P class=3D"postmetadata alt"><SMALL>This entry was posted on Saturday, =
+July 14th,=20
+2007 at 5:37 pm and is filed under <A title=3D"View all posts in =
+JavaScript"=20
+href=3D"http://fromvega.com/wordpress/category/javascript/"=20
+rel=3D"category tag">JavaScript</A>, <A title=3D"View all posts in =
+jQuery"=20
+href=3D"http://fromvega.com/wordpress/category/jquery/"=20
+rel=3D"category tag">jQuery</A>. You can follow any responses to this =
+entry=20
+through the <A=20
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/f=
+eed/">RSS=20
+2.0</A> feed. You can <A=20
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+respond">leave=20
+a response</A>, or <A=20
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/t=
+rackback/"=20
+rel=3Dtrackback>trackback</A> from your own site. =
+</SMALL></P></DIV></DIV><!-- You can start editing here. -->
+<H3 id=3Dcomments>164 Responses to =E2=80=9CEasyDrag jQuery =
+Plugin=E2=80=9D</H3>
+<OL class=3Dcommentlist>
+  <LI class=3Dalt id=3Dcomment-368><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-368">July=20
+  14th, 2007 at 6:16 pm</A> </SMALL>
+  <P>If you have any doubt, any suggestion or if you have found a bug =
+and want=20
+  to suggest a correction please feel free to leave a comment!</P>
+  <LI class=3D"" id=3Dcomment-369><CITE><A =
+href=3D"http://www.learningjquery.com/"=20
+  rel=3D"external nofollow">Karl Swedberg</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-369">July=20
+  14th, 2007 at 10:33 pm</A> </SMALL>
+  <P>Very slick! now I=E2=80=99m off to think up some fun uses for this. =
+Thanks for the=20
+  cool plugin. </P>
+  <P>Also, you ought to post it on jquery.com/plugins/. I=E2=80=99m sure =
+others will=20
+  appreciate it as well.</P>
+  <LI class=3Dalt id=3Dcomment-370><CITE>Datrio</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-370">July=20
+  16th, 2007 at 5:41 am</A> </SMALL>
+  <P>Bug in Firefox 2.0 under XP. When I start dragging, the text =
+outside of the=20
+  box is selected. Not sure what=E2=80=99s the jQuery way of stopping =
+the default event,=20
+  if there=E2=80=99s no specific thing, there=E2=80=99s always:</P>
+  <P>e.cancelBubble =3D true;<BR>if (e.stopPropagation) =
+e.stopPropagation();</P>
+  <LI class=3D"" id=3Dcomment-371><CITE>Jeff</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-371">July=20
+  16th, 2007 at 12:18 pm</A> </SMALL>
+  <P>It looks like you should set the z-index of the object. =
+It=E2=80=99s sitting under=20
+  text if I move it over text and then I can no longer grab it. Also on =
+firefox=20
+  2.0 on xp</P>
+  <LI class=3Dalt id=3Dcomment-372><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-372">July=20
+  16th, 2007 at 2:07 pm</A> </SMALL>
+  <P>Hello Datrio, thank you for the information! The fixed version is =
+already=20
+  available for download. It turns out that jQuery already have this=20
+  implemented, the event handler just need to return false to stop event =
+
+  bubbling.</P>
+  <LI class=3D"" id=3Dcomment-373><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-373">July=20
+  16th, 2007 at 2:17 pm</A> </SMALL>
+  <P>Hello Jeff, good point. I have set the code to set the z-index =
+property to=20
+  10000. It may help for quickly deployment but you should set the =
+z-index by=20
+  yourself if you need precise control over the elements layering.</P>
+  <LI class=3Dalt id=3Dcomment-375><CITE><A =
+href=3D"http://wanderinghorse.net/"=20
+  rel=3D"external nofollow">Stephan Beal</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-375">July=20
+  30th, 2007 at 12:24 pm</A> </SMALL>
+  <P>Nice plugin. i would highly recommend getting rid of that SpiderMan =
+logo at=20
+  the top of the page, though. If someone from Marvel sees it =
+you=E2=80=99re gonna get a=20
+  letter from their lawyers.</P>
+  <LI class=3D"" id=3Dcomment-376><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-376">July=20
+  30th, 2007 at 1:13 pm</A> </SMALL>
+  <P>And what about Chucky? hehe</P>
+  <LI class=3Dalt id=3Dcomment-377><CITE><A =
+href=3D"http://www.robhonig.com/"=20
+  rel=3D"external nofollow">Rob Honig</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-377">July=20
+  31st, 2007 at 7:46 am</A> </SMALL>
+  <P>Chucky is OK.. <IMG class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif">=20
+  Thnx.. was searching for this.</P>
+  <LI class=3D"" id=3Dcomment-379><CITE>djot</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-379">July=20
+  31st, 2007 at 10:43 am</A> </SMALL>
+  <P>-<BR>great, lost my post because of a but in this shit comment =
+window.</P>
+  <P>again in short: could you please provide an example of draggables =
+and=20
+  accepting droppables?</P>
+  <P>djot<BR>-</P>
+  <LI class=3Dalt id=3Dcomment-383><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-383">July=20
+  31st, 2007 at 1:40 pm</A> </SMALL>
+  <P>I=E2=80=99m sorry djot, I was testing an anti-spam plugin. It =
+indeed stops spams=20
+  but I disabled it since other people may encounter problems like you =
+did=20
+  (maybe your web development toolbar had javascript disabled?).</P>
+  <P>So, now answering your question: you can achieve the =
+=E2=80=9Cdroppables=E2=80=9D behavior=20
+  using the .ondrop function with a sort of collision detection code. I =
+did not=20
+  include =E2=80=9Cdroppables=E2=80=9D in the source code because I =
+wanted a clean and short=20
+  plugin. But I may include it on demand.</P>
+  <P>To give you an idea of what I=E2=80=99m talking about I have coded =
+a simple example=20
+  that you can find at:<BR><A =
+href=3D"http://fromvega.com/code/easydrag/drop.html"=20
+  rel=3Dnofollow>http://fromvega.com/code/easydrag/drop.html</A></P>
+  <P>Bye!</P>
+  <LI class=3D"" id=3Dcomment-444><CITE>Colin</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-444">August=20
+  4th, 2007 at 7:52 pm</A> </SMALL>
+  <P>Hi there,</P>
+  <P>Just found this and I=E2=80=99m trying to use it. Unfortunately, =
+using the copy of=20
+  the plugin above and jQuery 1.1.1, I get an=20
+  error:<BR>$(=E2=80=9D#admineditmenu=E2=80=9D).easydrag is not a =
+function<BR>Obviously, I=E2=80=99m=20
+  trying to add draggin to a div called admineditmenu, and I am doing so =
+with=20
+  this command:<BR>$(=E2=80=99#admineditmenu=E2=80=99).easydrag();</P>
+  <P>Am I missing something?</P>
+  <LI class=3Dalt id=3Dcomment-447><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-447">August=20
+  5th, 2007 at 12:18 am</A> </SMALL>
+  <P>Hello Colin,</P>
+  <P>I=E2=80=99m sorry but I have not tested it with jQuery 1.1.1. But =
+it seems not to=20
+  be a jQuery problem (maybe I=E2=80=99m wrong) but are you sure that =
+you are including=20
+  all the .js files correctly? Could you try using the most recent =
+version of=20
+  jQuery just to be sure if the error persists?</P>
+  <P>By the way, the correct form to call is =
+=E2=80=9C.easydrag()=E2=80=9D</P>
+  <P>See you!</P>
+  <LI class=3D"" id=3Dcomment-450><CITE>semelak1</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-450">August=20
+  5th, 2007 at 8:01 am</A> </SMALL>
+  <P>Hello ,</P>
+  <P>When setting the width/height of the box to auto or to a percentage =
+(60%=20
+  for example), the shape pf the dragged div changes while dragging !! =
+any=20
+  resolution/work around for this ??</P>
+  <P>Thanks</P>
+  <LI class=3Dalt id=3Dcomment-453><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-453">August=20
+  5th, 2007 at 12:55 pm</A> </SMALL>
+  <P>Hello semelak1,</P>
+  <P>The problem seems to be that you are not setting your div as =
+absolute=20
+  positioned and haven=E2=80=99t set the parent position to =
+=E2=80=9Crelative=E2=80=9D. When you call=20
+  easydrag(), the plugin will set the element positioning to absolute so =
+you can=20
+  drag it around. Therefore, some previous relations that the element =
+had with=20
+  others will be invalidated and others will change to reflect the new=20
+  relations.</P>
+  <P>So let=E2=80=99s say that you want to drag the element #freebox and =
+that it is=20
+  inside another box called #staticbox. #staticbox have no position =
+property=20
+  defined and have width set to 500px, #freebox have no position =
+property=20
+  defined as well and have width set to 50%. So #freebox will be 250px =
+wide.</P>
+  <P>Then when you apply the plugin, #freebox will no longer use the =
+#staticbox=20
+  to calculate the 50% width but the next relative positioned element =
+(at least=20
+  it=E2=80=99s what we expect). If there is no relative positioned =
+element as its=20
+  ancestor the #freebox width will be calculated based on the document =
+width. So=20
+  that=E2=80=99s probably why the size of your div is changing.</P>
+  <P>You can solve this by setting absolute values for the width and =
+height or=20
+  setting the =E2=80=9Cposition=E2=80=9D property of its parent to =
+=E2=80=9Crelative=E2=80=9D. This means adding=20
+  =E2=80=9Cposition: relative=E2=80=9D to #staticbox in the example =
+given.</P>
+  <P>I hope it helps!</P>
+  <LI class=3D"" id=3Dcomment-479><CITE>Miguel Angel Mayol</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-479">August=20
+  7th, 2007 at 3:43 am</A> </SMALL>
+  <P>Hi there, I=E2=80=99m using your plugin with a div which is =
+contained into another=20
+  div. The thing is that sometimes I get to drag the container div =
+instead of=20
+  the inner div although I haven=E2=80=99t assigned the =
+drag=E2=80=99n'drop functionallity to=20
+  the container div.<BR>Can you tell me why this happens?<BR>Good job=20
+though.</P>
+  <LI class=3Dalt id=3Dcomment-487><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-487">August=20
+  7th, 2007 at 12:08 pm</A> </SMALL>
+  <P>Hello Miguel,</P>
+  <P>I tried to reproduce the behavior you described here without=20
+  success.<BR>Everything worked as expected. Are you sure you are not =
+assigning=20
+  the drag=E2=80=99n'drop functionality to the wrong element? Maybe the =
+ID of the=20
+  element is being duplicated or something like that?</P>
+  <P>It will be easier to help if you make your code available =
+somewhere.</P>
+  <P>Thank you!</P>
+  <LI class=3D"" id=3Dcomment-671><CITE>Stanoo Chang</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-671">August=20
+  20th, 2007 at 4:50 am</A> </SMALL>
+  <P>I downloaded the script and gave it a try. However, the first drag =
+position=20
+  was not good with IE =E2=80=A6 so, here=E2=80=99s a quick fix to use =
+offsetTop instead of=20
+  css(=E2=80=9Dtop=E2=80=9D) and offsetHeight. </P>
+  <P>line 125-126<BR>- lastElemTop =3D =
+parseInt($(this).css(=E2=80=9Dtop=E2=80=9D));<BR>-=20
+  lastElemLeft =3D parseInt($(this).css(=E2=80=9Dleft=E2=80=9D));</P>
+  <P>line 130<BR>- if(isNaN(lastElemTop )) lastElemTop =3D lastMouseY -=20
+  this.offsetHeight/2;<BR>- if(isNaN(lastElemLeft)) lastElemLeft =3D =
+lastMouseX -=20
+  this.offsetWidth/2;<BR>+ lastElemTop =3D this.offsetTop;<BR>+ =
+lastElemLeft =3D=20
+  this.offsetLeft;</P>
+  <LI class=3Dalt id=3Dcomment-739><CITE>erica</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-739">August=20
+  24th, 2007 at 5:28 am</A> </SMALL>
+  <P>Hi there, I=E2=80=99m using your plugin with a div which is =
+contained into another=20
+  div. I would like to limit the div drag inside a certain range (div=20
+  id=3D=E2=80=9D150=E2=80=B3).<BR>how can I do?<BR>thanks</P>
+  <LI class=3D"" id=3Dcomment-740><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-740">August=20
+  25th, 2007 at 5:46 pm</A> </SMALL>
+  <P>Thank you Stanoo Chang, it works much better now!</P>
+  <LI class=3Dalt id=3Dcomment-741><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-741">August=20
+  25th, 2007 at 6:22 pm</A> </SMALL>
+  <P>Hello Erica,</P>
+  <P>Since the main objective of this plug-in is to provide the core=20
+  functionality of a drag-and-drop element it doesn=E2=80=99t have such =
+a feature but=20
+  you can achieve that using the .ondrag function.</P>
+  <P>Put inside it a code to get the coordinates of the boundaries of =
+the=20
+  element and check if it=E2=80=99s inside the limits you want it to be. =
+If it is=20
+  outside set the respective coordinate to equal as the limit.</P>
+  <P>I have coded a simple example for you. It works fine in Firefox but =
+maybe=20
+  it needs some fix to work properly in IE. I hope it gives you a =
+direction to=20
+  go:<BR><A href=3D"http://fromvega.com/code/easydrag/prison.html"=20
+  rel=3Dnofollow>http://fromvega.com/code/easydrag/prison.html</A></P>
+  <P>Bye!</P>
+  <LI class=3D"" id=3Dcomment-742><CITE>Erica</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-742">August=20
+  27th, 2007 at 5:23 am</A> </SMALL>
+  <P>thank you very much</P>
+  <LI class=3Dalt id=3Dcomment-743><CITE>Alex</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-743">August=20
+  28th, 2007 at 5:36 am</A> </SMALL>
+  <P>thx for the plugin! it works fine, with a small exception.<BR>when =
+you=20
+  click the div you want to drag (ie the yellow box on the first line of =
+text)=20
+  it attaches to the mouse on the second line of text. (it jumps a =
+little=20
+  downwards) how do u solve this?<BR>have a nice day!</P>
+  <LI class=3D"" id=3Dcomment-744><CITE><A =
+href=3D"http://www.mohjak.com/"=20
+  rel=3D"external nofollow">squitta</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-744">August=20
+  28th, 2007 at 12:33 pm</A> </SMALL>
+  <P>Hi fromvega,</P>
+  <P>I switched over from wzdragdrop to jquery and easydrag, because =
+easydrag is=20
+  giving me a much higher performance on dragables containing videos =
+:))</P>
+  <P>But as a matter of fact forms in dragables are not really working =
+anymore.=20
+  Could you please give me a hint how I can make my input fields work in =
+
+  jquery.</P>
+  <P>Thank you and best regards!</P>
+  <P>Squitta</P>
+  <LI class=3Dalt id=3Dcomment-745><CITE><A =
+href=3D"http://www.mohjak.com/"=20
+  rel=3D"external nofollow">squitta</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-745">August=20
+  28th, 2007 at 12:58 pm</A> </SMALL>
+  <P>Yeah, I figured out a work around. On Click I am just given the =
+element the=20
+  input field the focus. If you find out something better, let me =
+hear.</P>
+  <P>Thank you very much for your wonderfull script. I guess you heared =
+it=20
+  pretty much.</P>
+  <P>Best Regards,</P>
+  <P>Squitta</P>
+  <LI class=3D"" id=3Dcomment-746><CITE><A =
+href=3D"http://www.mohjak.com/"=20
+  rel=3D"external nofollow">squitta</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-746">August=20
+  28th, 2007 at 1:01 pm</A> </SMALL>
+  <P>Mh, as I can see, now the cursor is not placed where I click. =
+Instead its=20
+  placed at the end of the tunnel hehehehe</P>
+  <P>So still a workaround is needed :))</P>
+  <LI class=3Dalt id=3Dcomment-747><CITE><A =
+href=3D"http://www.mohjak.com/"=20
+  rel=3D"external nofollow">squitta</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-747">August=20
+  28th, 2007 at 1:03 pm</A> </SMALL>
+  <P>Hey for your spiderman problem, try to find a spiderman, which is =
+older=20
+  than 30 years. I had a superman comic from 1969 as I can remember.</P>
+  <P>Just check out, you will find an pretty old one :))</P>
+  <LI class=3D"" id=3Dcomment-748><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-748">August=20
+  28th, 2007 at 5:46 pm</A> </SMALL>
+  <P>Hello squitta, I=E2=80=99m a little busy these days but =
+I=E2=80=99ll take a look at it=20
+  later and try to find a way to make it work!</P>
+  <P>Thank you for the audience!</P>
+  <LI class=3Dalt id=3Dcomment-749><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-749">August=20
+  28th, 2007 at 11:42 pm</A> </SMALL>
+  <P>Hi squitta,</P>
+  <P>try downloading the script again (I have uploaded a new version) =
+and now=20
+  use $(=E2=80=9D#yourdiv=E2=80=9D).easydrag(true); and then check you =
+form. It should work!</P>
+  <P>By passing =E2=80=9Ctrue=E2=80=9D you tell EasyDrag to enable event =
+bubbling and then you=20
+  can get focus on the form elements.</P>
+  <P>Bye!</P>
+  <LI class=3D"" id=3Dcomment-754><CITE>LeoW</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-754">September=20
+  8th, 2007 at 9:39 am</A> </SMALL>
+  <P>Hi,</P>
+  <P>Here is a patch to avoid the element movement glitch when dragging =
+a=20
+  non-absolute positionned element.<BR>it comes in replacement of the=20
+  $(this).css(=E2=80=9Dposition=E2=80=9D, =E2=80=9Cabsolute=E2=80=9D) =
+line in the mousedown handler. </P>
+  <P>// dynamically obtain element position on the page<BR>var =
+mytop=3D0,=20
+  myleft=3D0;<BR>var obj=3D this;<BR>while( obj) {<BR>mytop+=3D=20
+  obj.offsetTop;<BR>myleft+=3D obj.offsetLeft;<BR>obj=3D=20
+  obj.offsetParent;<BR>}<BR>// set it as absolute =
+positioned<BR>$(this).css( {=20
+  position: =E2=80=9Cabsolute=E2=80=9D, top: mytop+=E2=80=9Dpx=E2=80=9D, =
+left: myleft+=E2=80=9Dpx=E2=80=9D });</P>
+  <P>Possible improvement: calculate only when top and left attributes =
+of the=20
+  element are not available.</P>
+  <LI class=3Dalt id=3Dcomment-756><CITE><A =
+href=3D"http://satts.wordpress.com/"=20
+  rel=3D"external nofollow">satts</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-756">October=20
+  7th, 2007 at 12:04 am</A> </SMALL>
+  <P>Thanks a bunch=E2=80=A6 Was looking for this plugin. jQuery =
+rocks</P>
+  <LI class=3D"" id=3Dcomment-757><CITE>Philippe</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-757">October=20
+  11th, 2007 at 6:53 am</A> </SMALL>
+  <P>Works ok - only did a small modification so the callbacks transmit =
+the=20
+  dragged element:<BR>// =
+mousemove<BR>dragCallbacks[currentElement.id](e,=20
+  currentElement);<BR>// mouseup:<BR>dropCallbacks[currentElement.id](e, =
+
+  currentElement);</P>
+  <LI class=3Dalt id=3Dcomment-758><CITE><A =
+href=3D"http://troycawley.com/"=20
+  rel=3D"external nofollow">Troy</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-758">October=20
+  18th, 2007 at 9:54 pm</A> </SMALL>
+  <P>For those who wish to <A href=3D"http://dean.edwards.name/packer/"=20
+  rel=3Dnofollow>title=3D=E2=80=9D/packer/=E2=80=9D&gt;pack</A> =
+easydrag.js, semicolons are required=20
+  at the end of the function definitions (lines 44,55,87,94 &amp; =
+133).</P>
+  <P>Thanks for the plugin, fromvega!</P>
+  <LI class=3D"" id=3Dcomment-759><CITE>aiya</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-759">October=20
+  20th, 2007 at 12:18 am</A> </SMALL>
+  <P>how to make like this=20
+  =
+=E2=80=9Chttp://blog.xilinus.com/prototype-portal/test/index.html=E2=80=9D=
+</P>
+  <LI class=3Dalt id=3Dcomment-760><CITE>Philippe</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-760">October=20
+  22nd, 2007 at 10:57 am</A> </SMALL>
+  <P>Looks like there is a bug about the easydrag ID:<BR>// if no id is =
+defined=20
+  assign a unique one<BR>if(undefined =3D=3D this.id) this.id =3D=20
+  =E2=80=98easydrag=E2=80=99+time();</P>
+  <P>I fixed it this way:<BR>// if no id is defined assign a unique=20
+  one<BR>if(undefined =3D=3D this.id || !this.id.length) this.id =3D =
+=E2=80=98easydrag=E2=80=99+(new=20
+  Date().getTime());</P>
+  <LI class=3D"" id=3Dcomment-761><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-761">October=20
+  22nd, 2007 at 12:37 pm</A> </SMALL>
+  <P>Hello guys! Thank you for the efforts in making this plug-in =
+better. I was=20
+  voyaging but now I think I=E2=80=99ll be able to update it more often. =
+I will make a=20
+  new version of the plug-in with all the improvements soon! Thank =
+you!</P>
+  <LI class=3Dalt id=3Dcomment-762><CITE>Jeff</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-762">October=20
+  23rd, 2007 at 7:42 pm</A> </SMALL>
+  <P>Interesting script. How difficult would it be to go one step =
+further and=20
+  onDrop check to see if it is inside of a specified area or div? kind =
+of like=20
+  moving a file to a recycle bin. I can see some interesting =
+applications for=20
+  this.</P>
+  <LI class=3D"" id=3Dcomment-765><CITE>Silence</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-765">October=20
+  27th, 2007 at 4:45 pm</A> </SMALL>
+  <P>Well i did everything you said with it and it still =
+doesen=E2=80=99t work =E2=80=A6 It=20
+  retrurns a script error like this\</P>
+  <P>$(=E2=80=9D#box1=E2=80=B3).easydrag is not a function<BR>(no =
+name)()index.html (line=20
+  21)<BR>ready(function())jquery-1.2.1.js (line =
+1932)<BR>init(function(),=20
+  undefined)jquery-1.2.1.js (line 70)<BR>jQuery(function(),=20
+  undefined)jquery-1.2.1.js (line 20)<BR>jQuery(function(),=20
+  undefined)jquery-1.2.1.js (line 21)<BR>(no name)()index.html (line =
+19)<BR>to=20
+  the wait list jQuery.readyList.push()jquery-1.2.1.js (line =
+1937)<BR>(no=20
+  name)()jquery-1.2.1.js (line 1961)<BR>each([function()], function(),=20
+  undefined)jquery-1.2.1.js (line 585)<BR>ready()</P>
+  <P>I=E2=80=99m new in using jquerry andeven newer in programing:). So =
+if you could=20
+  help =E2=80=A6 i will be very very glad</P>
+  <P>Gracias</P>
+  <LI class=3Dalt id=3Dcomment-766><CITE>engine80</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-766">October=20
+  31st, 2007 at 6:15 am</A> </SMALL>
+  <P>Looks like a great script.</P>
+  <P>Im hoping to use it to allow a drag and drop =
+=E2=80=98connection=E2=80=99 maker. I will=20
+  have a series of options, and dropping one to another will create a=20
+  connection.</P>
+  <P>I guess all i need to know is is it possible to know from </P>
+  <P>ondrop()=E2=80=A6 where its been dropped to=E2=80=A6 so i could say =
+programatically, id=20
+  =E2=80=98thing1=E2=80=B2 has been dropped on id =
+=E2=80=98thang2=E2=80=B2=E2=80=A6 ultimately, they would all be=20
+  draggable objects, in a way.</P>
+  <P>perhaps im being too vague</P>
+  <LI class=3D"" id=3Dcomment-767><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-767">October=20
+  31st, 2007 at 10:59 am</A> </SMALL>
+  <P>There is no such functionality yet. Next release will incorporate =
+all user=20
+  contributions. You will be able to detect which element was dropped =
+but for=20
+  now you will need to implement your =E2=80=9Ctarget=E2=80=9D code. =
+There is an example linked=20
+  in the comments, give it a look. Thanks!</P>
+  <LI class=3Dalt id=3Dcomment-768><CITE><A =
+href=3D"http://mixedcontent.com/"=20
+  rel=3D"external nofollow">Colin Brumelle</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-768">October=20
+  31st, 2007 at 1:39 pm</A> </SMALL>
+  <P>Hey! Thanks for a killer plugin! </P>
+  <P>I=E2=80=99m trying to stick a form in a div, and then make that div =
+draggable, but=20
+  when I do so, the form becomes not usable. Specifically, I am unable =
+to enter=20
+  content into a text field in FF, although (strangely) the submit =
+button works.=20
+  I thought this was a z-index thing, but I=E2=80=99ve been playing with =
+it for a while=20
+  now and no luck.</P>
+  <P>Any hints?</P>
+  <LI class=3D"" id=3Dcomment-770><CITE><A =
+href=3D"http://mixedcontent.com/"=20
+  rel=3D"external nofollow">Colin Brumelle</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-770">October=20
+  31st, 2007 at 2:46 pm</A> </SMALL>
+  <P>Sorry - just some more clarification - I=E2=80=99m using=20
+  $(=E2=80=9D#content=E2=80=9D).easydrag(true); to enable event =
+bubbling, but when I try to=20
+  select text in the box, the whole div moves, rather then selecting the =
+text.=20
+  Can I use =E2=80=98bind=E2=80=99/'unbind=E2=80=99 to temporarily =
+disable/enable the drag behavior when=20
+  a form field is selected? Not sure how to do this though=E2=80=A6</P>
+  <LI class=3Dalt id=3Dcomment-771><CITE>marcin kolonko</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-771">November=20
+  4th, 2007 at 12:12 pm</A> </SMALL>
+  <P>hi,</P>
+  <P>thanks for the plugin, makes life easier=E2=80=A6 <IMG =
+class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif">=20
+  </P>
+  <P>when i drop a div, that has an click event, the event is triggered. =
+how can=20
+  i prevent this?</P>
+  <P>i tried to unbind the click event when i start dragging, and bind =
+it again=20
+  on mouseout, but then the event is triggered always one time more then =
+
+  before=E2=80=A6</P>
+  <P>thanks!</P>
+  <LI class=3D"" id=3Dcomment-773><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-773">November=20
+  5th, 2007 at 5:39 pm</A> </SMALL>
+  <P>Hi Colin Brumelle,</P>
+  <P>I have added two methods to the plugin: .dragOn() and .dragOff() =
+that you=20
+  can use to pause and restart dragging. I have made a test with forms =
+with the=20
+  following code. It works but not perfectly. Give it a try and return =
+to us if=20
+  you find a better solution.</P>
+  <P>$(=E2=80=9D#form_div=20
+  =
+input=E2=80=9D).click(function(){<BR>$(=E2=80=9D#form_div=E2=80=9D).dragO=
+ff();<BR>});</P>
+  <P>$(=E2=80=9D#form_div=20
+input=E2=80=9D).blur(function(){<BR>$(=E2=80=9D#form_div=E2=80=9D).dragOn=
+();<BR>});</P>
+  <LI class=3Dalt id=3Dcomment-774><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-774">November=20
+  5th, 2007 at 5:41 pm</A> </SMALL>
+  <P>Hello marcin,</P>
+  <P>I have checked your site but I couldn=E2=80=99t see the click event =
+after=20
+  dropping!</P>
+  <LI class=3D"" id=3Dcomment-776><CITE><A =
+href=3D"http://www.sarmacreative.com/"=20
+  rel=3D"external nofollow">David K Roberts</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-776">November=20
+  6th, 2007 at 7:21 pm</A> </SMALL>
+  <P>What I would really like to see is a way you can specifify an Inner =
+Div as=20
+  the drag state=E2=80=A6. this way you can move the whole object, but =
+you can only drag=20
+  the title. (I am using this as a way to create virtual windows on an=20
+  application=E2=80=A6 It works great until I have a user try to use a =
+combobox=E2=80=A6 it then=20
+  still drags when I look at an elongated select box</P>
+  <LI class=3Dalt id=3Dcomment-777><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-777">November=20
+  6th, 2007 at 7:40 pm</A> </SMALL>
+  <P>Yeah=E2=80=A6 I=E2=80=99m planning to add a few more =
+functionalities to the plugin as soon=20
+  as I have more free time. But the original objective of this plugin =
+was to=20
+  provide a simple drag-and-drop functionality so others could use it as =
+a base.=20
+  But since pretty much everyone is seeking for drop targets, drag =
+handlers and=20
+  so on I may code them=E2=80=A6</P>
+  <LI class=3D"" id=3Dcomment-782><CITE>alain</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-782">November=20
+  25th, 2007 at 3:20 am</A> </SMALL>
+  <P>Be nice to add a resize functionality too.</P>
+  <LI class=3Dalt id=3Dcomment-783><CITE><A =
+href=3D"http://www.austinwebvision.com/"=20
+  rel=3D"external nofollow">Patrick</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-783">November=20
+  26th, 2007 at 11:14 am</A> </SMALL>
+  <P>is there a way to do a form submit when doing the .ondrop?</P>
+  <P>I=E2=80=99d like to use this to submit hidden fields to a form on =
+another page on=20
+  my site and then update a div on the current page showing success =
+depending on=20
+  server response. I don;t want the user to leave the current page but =
+do the=20
+  form submit in the background.</P>
+  <P>Regards,</P>
+  <P>Patrick</P>
+  <LI class=3D"" id=3Dcomment-784><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-784">November=20
+  27th, 2007 at 3:10 pm</A> </SMALL>
+  <P>Hey Patrick, you can do it with AJAX. Just call the proper function =
+that=20
+  will make a remote post from inside .ondrop</P>
+  <LI class=3Dalt id=3Dcomment-785><CITE>Carlos</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-785">December=20
+  3rd, 2007 at 5:04 pm</A> </SMALL>
+  <P>How to make a title div dragging the box only when the mouse is =
+over the=20
+  title?</P>
+  <LI class=3D"" id=3Dcomment-790><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-790">December=20
+  6th, 2007 at 4:31 pm</A> </SMALL>
+  <P>Carlos, you will need to implement this=E2=80=A6 This script just =
+provides the=20
+  basic functionality of drag and drop.</P>
+  <LI class=3Dalt id=3Dcomment-792><CITE><A =
+href=3D"http://www.ajdila.com/de/"=20
+  rel=3D"external nofollow">Sascha Braun</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-792">December=20
+  7th, 2007 at 4:52 pm</A> </SMALL>
+  <P>Hi fromvega,</P>
+  <P>I am using lots of dragable layers in my applications, all are =
+based on=20
+  easydrag, I dropped out, wzdragdrop, because of performance issues. =
+Most of=20
+  the time easydrag and the wanted functionality is working fine in =
+mozilla.</P>
+  <P>I am using easydrag layers as fixed objects on the screen, and =
+store the=20
+  position of the layer thru ajax on the webserver, so if a user clicks =
+on=20
+  another page the layer reapears at exactly the same spot, where the =
+user left=20
+  it.</P>
+  <P>But in internet explorer the dragable layer always is just thrown =
+below the=20
+  content, but as soon as the user clicks on the layer, the layer is =
+moved to=20
+  the spot, where it normaly is expected.</P>
+  <P>Please take a look at the website I posted here=20
+  (http://www.ajdila.com/de/), sorry that the english translation is not =
+
+  finished yet. If you click on one of the products and put the product =
+into the=20
+  shopping cart, the dragable layer appears. Please play with it, maybe =
+you are=20
+  better able to find out why its not working as expected.</P>
+  <P>Thank you very much.</P>
+  <P>Sascha</P>
+  <LI class=3D"" id=3Dcomment-793><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-793">December=20
+  7th, 2007 at 5:59 pm</A> </SMALL>
+  <P>Hello Sascha,</P>
+  <P>I=E2=80=99m a little busy right now to take a more concise look at =
+your source=20
+  code. But I have tested here with IE7 and the layer didn=E2=80=99t =
+move at all :S</P>
+  <P>I think it=E2=80=99s something related to CSS. Did you set the =
+=E2=80=9Cposition=E2=80=9D property=20
+  of the layer to =E2=80=9Cabsolute=E2=80=9D?</P>
+  <P>Since it should be absolute positioned, try putting your layer =
+outside any=20
+  other tag, this may prevent future problems.</P>
+  <P>Try to validate your code withe the W3C validation tool, maybe =
+something=20
+  isn=E2=80=99t right.</P>
+  <P>Thank you,<BR>fromvega</P>
+  <LI class=3Dalt id=3Dcomment-795><CITE>Prasad</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-795">December=20
+  21st, 2007 at 12:30 pm</A> </SMALL>
+  <P>Hi Engine80</P>
+  <P>To your problem you can use the below solution</P>
+  <P>drop: function(ev, ui) {<BR>var dropguy =3D=20
+  $(ui.draggable.element).clone();<BR>var id =3D =
+dropguy.attr(=E2=80=9Did=E2=80=9D);<BR>var=20
+  divdata =3D document.getElementById(id);<BR>var hdSave =3D=20
+  document.getElementById(=E2=80=99hdSave=E2=80=99);<BR>var hdType =3D=20
+  document.getElementById(=E2=80=99hdType=E2=80=99);<BR>hdSave.value =3D =
+
+  dropguy.attr(=E2=80=9Did=E2=80=9D);<BR>hdType.value =3D this.id; // =
+this is nothing but your=20
+  droppable control.</P>
+  <P>$(=E2=80=9D.drop=E2=80=9D).each(function(i, =
+node){$<BR>(node).droppableDestroy();});//Fix=20
+  IE bug </P>
+  <P>var prm =3D=20
+  =
+Sys.WebForms.PageRequestManager.getInstance();<BR>prm._doPostBack(=E2=80=99=
+UpdatePanel1=E2=80=B2,=20
+  =
+=E2=80=9D);<BR>//document.form1.submit();<BR>//$(this).append(divdata.out=
+erHTML);<BR>}</P>
+  <LI class=3D"" id=3Dcomment-798><CITE><A =
+href=3D"http://www.ajdila.com/"=20
+  rel=3D"external nofollow">Sascha Braun</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-798">December=20
+  27th, 2007 at 2:56 pm</A> </SMALL>
+  <P>Please check out this url:</P>
+  <P><A href=3D"http://ajdila/de/galleries/sascha/product-commercials/"=20
+  =
+rel=3Dnofollow>http://ajdila/de/galleries/sascha/product-commercials/</A>=
+</P>
+  <P>It is now working with the moving layers and the storage in the =
+servers or=20
+  theire position. But the layers cant get shown as they should appear =
+above a=20
+  flash movie.</P>
+  <P>Maybe somebody has an Idea?</P>
+  <P>Thank you.</P>
+  <LI class=3Dalt id=3Dcomment-799><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-799">December=20
+  27th, 2007 at 8:55 pm</A> </SMALL>
+  <P>Hey Sascha, I can=E2=80=99t really say for sure what=E2=80=99s =
+happening since I never=20
+  messed up with floating divs and flash. But try setting the z-index =
+property=20
+  of the flash movie to a smaller value (or vice versa) and see what=20
+happens!</P>
+  <LI class=3D"" id=3Dcomment-800><CITE><A =
+href=3D"http://www.ajdila.com/"=20
+  rel=3D"external nofollow">Sascha Braun</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-800">December=20
+  29th, 2007 at 5:32 am</A> </SMALL>
+  <P>I solved the problem, i still dont know how it works in internet =
+explorer,=20
+  because I dont have one.</P>
+  <P>You just have to use your plugin to create dragable layer, with =
+lets say=20
+  posiiton absolute, which supports the internet explorer then. Within =
+the=20
+  dragable layer you have to create another layer at a fixed size. The =
+nested=20
+  layer has to have a position:fixed attribute, which says that within =
+the=20
+  dragable the nested layer is fixed. From that moment the nested layer =
+comes=20
+  along with a z-index set to infinite. Flash behind a dragable is no =
+problem=20
+  anymore.</P>
+  <P>:))</P>
+  <LI class=3Dalt id=3Dcomment-808><CITE>Lawrence</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-808">January=20
+  13th, 2008 at 8:17 am</A> </SMALL>
+  <P>Hey,</P>
+  <P>Im trying to use your code to be able to drag a photo around inside =
+a div=20
+  and keep the overflow:hidden property so only certain parts of the =
+photo are=20
+  shown..</P>
+  <P>It seems that the photo is removed from the div is resides in even =
+tho i=20
+  have set the z-index of the photo to -99999 (as well as in your =
+drag.js=20
+  code)</P>
+  <P>any iedas?</P>
+  <LI class=3D"" id=3Dcomment-809><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-809">January=20
+  13th, 2008 at 7:09 pm</A> </SMALL>
+  <P>Hello Lawrence,</P>
+  <P>I think the z-index property has nothing to do with what you want. =
+Your=20
+  problem is probably due to the the div positioning, it=E2=80=99s =
+position property is=20
+  set to absolute. You may try changing it to position: relative.</P>
+  <P>Let me know if it works!</P>
+  <P>Bye.</P>
+  <LI class=3Dalt id=3Dcomment-813><CITE><A =
+href=3D"http://www.aikido-acacia.be/"=20
+  rel=3D"external nofollow">Glenn</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-813">January=20
+  21st, 2008 at 1:06 am</A> </SMALL>
+  <P>Hi Fromvega,</P>
+  <P>Thanks a lot for this contribution, I just use easydrag to make the =
+user=20
+  able to drag a small google map div like a window. Works very well. =
+Didn=E2=80=99t=20
+  have a need to drag/drop just to drag. </P>
+  <P>Behavior is also very ok, google map inside div still drags fine =
+without=20
+  window. thanks a lot!!</P>
+  <P>I actually applied it on the cluetip plugin (drag a show help) as =
+it was=20
+  giving me some issues in correct placement, I enable dragzoom after =
+the=20
+  cluetip is show and that also works fine. so it works well enough with =
+the=20
+  rest. I kinda start owing my life to jquery=E2=80=A6 since I =
+discovered this =E2=80=A6. I=20
+  can=E2=80=99t get no sleep <IMG class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif">=20
+  </P>
+  <P>Glenn</P>
+  <LI class=3D"" id=3Dcomment-816><CITE><A =
+href=3D"http://www.irontec.com/"=20
+  rel=3D"external nofollow">Jabi</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-816">January=20
+  26th, 2008 at 12:57 pm</A> </SMALL>
+  <P>Hi Fromvega!</P>
+  <P>First of all, nice piece of code you have! good job!</P>
+  <P>I would like to contribute with a little workaround in your pluggin =
+for=20
+  ussing it with the also Jquery impromtu pluggin=20
+  (http://plugins.jquery.com/project/Impromptu).</P>
+  <P>The main problem is the div impromptu creates has some left margin =
+assinged=20
+  on its creation, so you pluggin always move the div those marginLeft =
+pixels to=20
+  the left.</P>
+  <P>I have fixed it dettecting and substracting (if applies) those =
+pixels to=20
+  the =E2=80=9CspanX=E2=80=9D var which determines the left positon of =
+the dragable object in=20
+  your pluggin:</P>
+  <P>(Line 55:)<BR>var spanX =3D (pos.x - lastMouseX) +=20
+  =
+Math.abs(parseFloat($(currentElement).css(=E2=80=9DmarginLeft=E2=80=9D)))=
+;</P>
+  <P>I haven=E2=80=99t test it in any browser but FF2, and maybe it will =
+be different=20
+  with a non negative marging=E2=80=A6</P>
+  <P>Anyway, i thought it could be intersting checking for margins in =
+that=20
+  =E2=80=9CupdatePosition=E2=80=9D function.</P>
+  <P>Jabi</P>
+  <LI class=3Dalt id=3Dcomment-817><CITE><A =
+href=3D"http://www.irontec.com/"=20
+  rel=3D"external nofollow">Jabi</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-817">January=20
+  26th, 2008 at 12:58 pm</A> </SMALL>
+  <P>Actually the line working with both positive and negative margins =
+would be=20
+  like this:</P>
+  <P>(Line 55:)<BR>var spanX =3D (pos.x - lastMouseX) -=20
+  parseFloat($(currentElement).css(=E2=80=9DmarginLeft=E2=80=9D));</P>
+  <LI class=3D"" id=3Dcomment-818><CITE><A href=3D"http://64squar.es/"=20
+  rel=3D"external nofollow">jonah</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-818">January=20
+  29th, 2008 at 6:33 am</A> </SMALL>
+  <P>Hi</P>
+  <P>I=E2=80=99ve made a couple of improvements to your script. =
+I=E2=80=99ve added an=20
+  onDragStart callback and fixed a couple of bugs. Im using the modified =
+version=20
+  over at 64squares. If you are interested I can give them to you.</P>
+  <P>Jonha</P>
+  <LI class=3Dalt id=3Dcomment-819><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-819">January=20
+  29th, 2008 at 11:08 am</A> </SMALL>
+  <P>Hi Jonah,</P>
+  <P>Yeah, it would be great to have a look at your code. Maybe you =
+could send=20
+  it to us explaining your additions and the bugs.</P>
+  <P>Thank you</P>
+  <LI class=3D"" id=3Dcomment-823><CITE><A=20
+  =
+href=3D"http://www.contenteditorwebpart.com/Shared%20Documents/Accordian.=
+aspx"=20
+  rel=3D"external nofollow">Iain Munro</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-823">February=20
+  21st, 2008 at 12:37 am</A> </SMALL>
+  <P>Evening</P>
+  <P>I am using Sharepoint and trying to get various things working =
+within a=20
+  CEWP - sometimes that work and sometimes they don=E2=80=99t.</P>
+  <P>I came across a good accordion piece of jquery code that I got =
+working,=20
+  then I thought it would be nice drag the accordion around the =
+screen.</P>
+  <P>I now have it dragging, but the accordion piece has stopped =
+working.</P>
+  <P>Any ideas ?</P>
+  <P>Iain</P>
+  <LI class=3Dalt id=3Dcomment-825><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-825">February=20
+  22nd, 2008 at 4:22 pm</A> </SMALL>
+  <P>Hello Iain,</P>
+  <P>I didn=E2=80=99t read you code, but try calling the easydrag method =
+passing =E2=80=9Ctrue=E2=80=9D=20
+  to it. Like the following example. This will enable event bubbling and =
+you=20
+  will be able to interact with the elements inside the drag box.</P>
+  <P>$(=E2=80=9D#box1=E2=80=B3).easydrag(true);</P>
+  <P>Bye</P>
+  <LI class=3D"" id=3Dcomment-826><CITE>eGandalf</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-826">February=20
+  28th, 2008 at 4:06 pm</A> </SMALL>
+  <P>Beautiful. JQuery rocks and this is a fantastic plugin. EasyDrag=20
+indeed!</P>
+  <LI class=3Dalt id=3Dcomment-827><CITE><A href=3D"http://infowey.com/" =
+
+  rel=3D"external nofollow">ctraos</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-827">March=20
+  4th, 2008 at 2:47 pm</A> </SMALL>
+  <P>muchas gracias, muy buen trabajo !!</P>
+  <LI class=3D"" id=3Dcomment-828><CITE><A =
+href=3D"http://www.thisismy.ca/"=20
+  rel=3D"external nofollow">Bill Lee</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-828">March=20
+  4th, 2008 at 6:47 pm</A> </SMALL>
+  <P>Im thinking about using this for an administration panel where the =
+admin=20
+  could move the most import doms to wherever they want. Is there way =
+for the=20
+  script to remember its location for the next time that user comes back =
+to the=20
+  page ?</P>
+  <LI class=3Dalt id=3Dcomment-830><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-830">March=20
+  6th, 2008 at 10:57 pm</A> </SMALL>
+  <P>Hello, Bill Lee! To achieve that you may save the position directly =
+into=20
+  cookies or, what I prefer, you may use a server-side script to save =
+the state=20
+  and then dynamic generate your Javascript. I may write an example for =
+this=20
+  later. <IMG class=3Dwp-smiley alt=3D;)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_wink=
+.gif"></P>
+  <LI class=3D"" id=3Dcomment-832><CITE>Craig</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-832">March=20
+  14th, 2008 at 2:16 am</A> </SMALL>
+  <P>I looked over your code and found a better way to fix the no id =
+issue. Use=20
+  the elements instead of their ids.</P>
+  <P>To do this:<BR>-remove the line with the new Date() hack<BR>-remove =
+every=20
+  instance of =E2=80=9C.id=E2=80=9D<BR>-replace every =
+=E2=80=9Con=E2=80=9D and =E2=80=9Coff=E2=80=9D with true and false=20
+  respectively<BR>-remove =E2=80=9C!=3D undefined=E2=80=9D on line 66 =
+</P>
+  <P>This method is smaller, cleaner and is not affected if an id =
+attribute=20
+  changes.</P>
+  <LI class=3Dalt id=3Dcomment-834><CITE><A href=3D"http://fedmich.com/" =
+
+  rel=3D"external nofollow">fedmich</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-834">March=20
+  16th, 2008 at 6:38 am</A> </SMALL>
+  <P>Great script, thanks for this, how about locking the movements or =
+setting=20
+  =E2=80=9CDragabble area=E2=80=9D<BR>I=E2=80=99m supposed to make a =
+drag and drop callout/bubbles and=20
+  then adding of text on it.</P>
+  <P>Any ideas on this. THanks in advance</P>
+  <LI class=3D"" id=3Dcomment-838><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-838">March=20
+  17th, 2008 at 12:31 pm</A> </SMALL>
+  <P>Hello Graig, thanks for the insight! I=E2=80=99m going to address =
+this when I find=20
+  a little time to mess again with EasyDrag. Bye!</P>
+  <LI class=3Dalt id=3Dcomment-839><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-839">March=20
+  17th, 2008 at 12:35 pm</A> </SMALL>
+  <P>Hello fedmich, to lock movements you can use .dragOff() so you =
+won=E2=80=99t be=20
+  able to drag the element until you call .dragOn(). But there are a lot =
+of=20
+  requested features that I plan to implement as I have more spare time, =
+like=20
+  limit area, drop area, handles etc. See you!</P>
+  <LI class=3D"" id=3Dcomment-840><CITE><A href=3D"http://fedmich.com/"=20
+  rel=3D"external nofollow">fedmich</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-840">March=20
+  17th, 2008 at 12:50 pm</A> </SMALL>
+  <P>limit area would be nice, I need it more than the other features =
+now.=20
+  Anyway, good luck on your programming and your blog <IMG =
+class=3Dwp-smiley=20
+  alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif"></P>
+  <LI class=3Dalt id=3Dcomment-841><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-841">March=20
+  17th, 2008 at 2:17 pm</A> </SMALL>
+  <P>Fedmich, EasyDrag was created to be used as a base for future=20
+  implementations. So if you want to write your own code for the =
+=E2=80=9Climit area=E2=80=9D,=20
+  it shouldn=E2=80=99t be that difficult. You could use .onDrag method =
+to get the=20
+  boundaries of the draggable object and compare it with the boundaries =
+of the=20
+  =E2=80=9Climit area=E2=80=9D.</P>
+  <P>If you check the previous comments you will see that I have =
+discussed this=20
+  before and that I also developed a quick and crude example of =
+this.</P>
+  <P>Here are the links to save you time:<BR><A=20
+  href=3D"http://fromvega.com/code/easydrag/drop.html"=20
+  rel=3Dnofollow>http://fromvega.com/code/easydrag/drop.html</A><BR><A=20
+  href=3D"http://fromvega.com/code/easydrag/prison.html"=20
+  rel=3Dnofollow>http://fromvega.com/code/easydrag/prison.html</A></P>
+  <P>They need polish to allow a more generic usage. But I hope they can =
+give=20
+  you a good insight!</P>
+  <LI class=3D"" id=3Dcomment-842><CITE>Neal</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-842">March=20
+  18th, 2008 at 2:47 pm</A> </SMALL>
+  <P>Thank you, thank you for this plug-in. </P>
+  <P>I used it to poke fun at Hillary Clinton:<BR><A=20
+  href=3D"http://gielladesign.com/fun/hillary/hillary.html"=20
+  =
+rel=3Dnofollow>http://gielladesign.com/fun/hillary/hillary.html</A></P>
+  <P>You made it so easy to create the effect I wanted. It took me =
+seconds to=20
+  write the code.</P>
+  <LI class=3Dalt id=3Dcomment-846><CITE><A =
+href=3D"http://www.keephelp.com/"=20
+  rel=3D"external nofollow">xddxz</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-846">March=20
+  26th, 2008 at 6:52 am</A> </SMALL>
+  <P>Nice plugin.<BR>Thanks a lot! <IMG class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif"></P>
+  <LI class=3D"" id=3Dcomment-850><CITE>Arun</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-850">April=20
+  3rd, 2008 at 3:01 am</A> </SMALL>
+  <P>Hi,</P>
+  <P>This one is a very good plugin.Even after hiding the layer the =
+=E2=80=9Cplus=E2=80=9D=20
+  symbol exists in Internet Explorer but in Mozilla it is working fine.I =
+want to=20
+  remove the =E2=80=9Cplus=E2=80=9D symbol.Please help me.</P>
+  <LI class=3Dalt id=3Dcomment-851><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-851">April=20
+  3rd, 2008 at 2:13 pm</A> </SMALL>
+  <P>Hello Arun, what do you mean by the =E2=80=9Cplus=E2=80=9D symbol? =
+I suppose you mean the=20
+  arrows that appear over the divs that can be dragged, correct me if =
+I=E2=80=99m=20
+  wrong.</P>
+  <P>So how are you hiding the div? You should try =E2=80=9Cdisplay: =
+none;=E2=80=9D if you are=20
+  using =E2=80=9Cvisibility: hidden=E2=80=9D. If it doesn=E2=80=99t work =
+you can always change the=20
+  cursor type of the element, like this: =E2=80=9Ccursor: =
+default=E2=80=9D.</P>
+  <P>Bye!</P>
+  <LI class=3D"" id=3Dcomment-855><CITE>Dilip</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-855">April=20
+  12th, 2008 at 4:06 am</A> </SMALL>
+  <P>Any solution for this scenario=E2=80=A6<BR>I have a parent div =
+which consist of two=20
+  parts. One head and body part. After clicking and dragging the head =
+part, the=20
+  whole parent div (head + body part) should move.<BR>Pls gime a =
+soln=E2=80=A6.</P>
+  <LI class=3Dalt id=3Dcomment-856><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-856">April=20
+  14th, 2008 at 5:34 pm</A> </SMALL>
+  <P>Hello Dilip,</P>
+  <P>As I said before, this plugin doesn=E2=80=99t provide all features =
+as its main goal=20
+  is to provide a base functionality for drag and drop. </P>
+  <P>But basically, to obtain the effect that you need, you should =
+update the=20
+  body element position in accordance with the head position every time =
+it=20
+  changes. Using ondrag() you can track the position of the header =
+element.</P>
+  <P>I=E2=80=99m looking forward to code all requested features in the =
+near=20
+  future!<BR>Keep an eye for the updates!</P>
+  <LI class=3D"" id=3Dcomment-859><CITE><A =
+href=3D"http://my.opera.com/melnichuck"=20
+  rel=3D"external nofollow">Oleg</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-859">April=20
+  18th, 2008 at 10:06 am</A> </SMALL>
+  <P>Hi fromvega,</P>
+  <P>Thanks for your great plugin! I=E2=80=99m a novice in JavaScript =
+and tried to use=20
+  native jQuery UI instruments for dragging, but they are too heavy and =
+leaks=20
+  some features, as for me.</P>
+  <P>I=E2=80=99m using your plugin to develop an online city map ( <A=20
+  href=3D"http://etabua.net/tmap" =
+rel=3Dnofollow>http://etabua.net/tmap</A> ). It=E2=80=99s=20
+  on an early stage of development, but when i=E2=80=99m clicking the =
+map with any=20
+  instrument, it has been moved 1px left and 1px top all the time. I =
+have to=20
+  reset it to it=E2=80=99s default position all the time. I activate =
+dragOn() only when=20
+  the Hand tool is being selected. All other instruments have dragOff() =
+call=20
+  instead.</P>
+  <P>Thanks for help.</P>
+  <LI class=3Dalt id=3Dcomment-861><CITE>Tony</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-861">April=20
+  21st, 2008 at 6:30 pm</A> </SMALL>
+  <P>Hi, this is a great plugin. The only little issue I see is in the =
+Safari=20
+  browser, the cursor with crosshairs doesn=E2=80=99t change to the =
+pointer(hand) icon=20
+  when mousing over links in a draggable popup window. Probably more of =
+a safari=20
+  issue than a bug, as this works flawlessly with IE6, 7 and FF 2.</P>
+  <LI class=3D"" id=3Dcomment-865><CITE><A =
+href=3D"http://www.iinteractive.com/moose"=20
+  rel=3D"external nofollow">Stevan Little</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-865">May=20
+  3rd, 2008 at 12:01 pm</A> </SMALL>
+  <P>Excellent plugin, I only needed on added feature, the ability to =
+manually=20
+  force the same effects as the onmouseout action. The code was simple, =
+here it=20
+  is, feel free to add it into the plugin if you like:<BR><CODE><BR>// =
+force the=20
+  same action as onmouseup<BR>$.fn.stopDrag =3D function () =
+{<BR>isMouseDown =3D=20
+  false;<BR>if(dropCallbacks[currentElement.id] !=3D=20
+  undefined){<BR>dropCallbacks[currentElement.id](e,=20
+  currentElement);<BR>}<BR>return false;<BR>};<BR></CODE><BR>I needed =
+this=20
+  mostly because I have a scolling DIV (overflow:auto) inside the =
+draggable=20
+  container. </P>
+  <P>- Stevan</P>
+  <LI class=3Dalt id=3Dcomment-870><CITE>Aaron</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-870">May=20
+  12th, 2008 at 12:20 pm</A> </SMALL>
+  <P>Nice plugin, but is there a way to restrict the draggable div =
+inside=20
+  another container div?</P>
+  <LI class=3D"" id=3Dcomment-871><CITE>Aaron</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-871">May=20
+  12th, 2008 at 12:25 pm</A> </SMALL>
+  <P>Ahh.. I just saw comment #20 with the answer I need.. Thanks alot =
+<IMG=20
+  class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif"></P>
+  <LI class=3Dalt id=3Dcomment-877><CITE><A =
+href=3D"http://batiste.dosimple.ch/blog/"=20
+  rel=3D"external nofollow">Batisteb</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-877">May=20
+  19th, 2008 at 8:43 am</A> </SMALL>
+  <P>Hi,</P>
+  <P>Thx for your plug in. I have used it as a fundation for a Drag =
+&amp; Drop=20
+  and Resize plugin : <A =
+href=3D"http://batiste.dosimple.ch/blog/2008-05-18-1/"=20
+  rel=3Dnofollow>http://batiste.dosimple.ch/blog/2008-05-18-1/</A></P>
+  <P>OSS FTW</P>
+  <LI class=3D"" id=3Dcomment-878><CITE>Olgg</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-878">May=20
+  20th, 2008 at 4:15 am</A> </SMALL>
+  <P>Thanks for this wonderful code, the Jquery draggable event =
+don=E2=80=99t seems to=20
+  work with me.</P>
+  <P>Realy nice work.</P>
+  <LI class=3Dalt id=3Dcomment-880><CITE><A =
+href=3D"http://www.hunka.in/"=20
+  rel=3D"external nofollow">hunka</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-880">May=20
+  26th, 2008 at 6:21 am</A> </SMALL>
+  <P>Its really nice to know how Jquery helps=E2=80=A6.thanks =
+mate=E2=80=A6. <IMG=20
+  class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif"></P>
+  <LI class=3D"" id=3Dcomment-882><CITE><A =
+href=3D"http://www.uzforum.com/"=20
+  rel=3D"external nofollow">Uzbek</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-882">May=20
+  30th, 2008 at 8:44 am</A> </SMALL>
+  <P>Great plugin. Was looking something like it.</P>
+  <P>Del.icio.us &amp;&amp; digging right away=E2=80=A6</P>
+  <P>Thanks yet again.</P>
+  <LI class=3Dalt id=3Dcomment-886><CITE><A =
+href=3D"http://www.pabloazorin.com/"=20
+  rel=3D"external nofollow">Pablo A</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-886">June=20
+  23rd, 2008 at 6:47 pm</A> </SMALL>
+  <P>I will create a customizable story book. In the middle of the page =
+I will=20
+  have a DIV that will represent the book page. On the right side I will =
+have=20
+  some 3/4 characters, 10 accessories and so on.<BR>I want to =
+drag=E2=80=99n'drop the=20
+  elements into the book page and then get the coordinates of each =
+object=20
+  dropped into the div since I want to save these coordinates for later =
+print=20
+  the book. I also want if the user drag=E2=80=99n'drop the character =
+outside the page=20
+  div move it to the original place.<BR>Do you know of something similar =
+to what=20
+  I am looking for? Maybe a similar situation or solution?<BR>Thanks in =
+advance=20
+  to all the community!</P>
+  <LI class=3D"" id=3Dcomment-888><CITE><A=20
+  href=3D"http://www.aneveningwithdotmatrix.com/"=20
+  rel=3D"external nofollow">Lapubell</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-888">June=20
+  25th, 2008 at 5:33 pm</A> </SMALL>
+  <P>I=E2=80=99m developing a fun little site that works like a =
+Mac/Linux OS for my=20
+  band=E2=80=99s website. I love this plugin that you have but I am =
+trying to make it=20
+  work like a handle. Any input as to how to make a child div the =
+dragable=20
+  object that drags the parent div?</P>
+  <LI class=3Dalt id=3Dcomment-891><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-891">June=20
+  26th, 2008 at 6:25 pm</A> </SMALL>
+  <P>Hi Pablo A and Lapubell, I got some time and I will try to code =
+this=20
+  requested features today. Keep an eye for updates!</P>
+  <LI class=3D"" id=3Dcomment-892><CITE><A=20
+  href=3D"http://www.aneveningwithdotmatrix.com/"=20
+  rel=3D"external nofollow">Lapubell</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-892">June=20
+  26th, 2008 at 6:33 pm</A> </SMALL>
+  <P>that would be way too awesome! got a paypal donate button? I love=20
+  supporting OSS projects=E2=80=A6 <IMG class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif">=20
+  </P>
+  <P>you jquery coders are awesome. i=E2=80=99m still wrapping my brain =
+around good ol=20
+  javascript.</P>
+  <LI class=3Dalt id=3Dcomment-894><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-894">June=20
+  28th, 2008 at 12:41 am</A> </SMALL>
+  <P>Hi Lapubell, just wanted to let you know the code for the handler =
+is done=20
+  but I=E2=80=99m having a little problem with the ftp, so =
+that=E2=80=99s why I didn=E2=80=99t upload=20
+  the code yet! Hope to have it solved soon.</P>
+  <LI class=3D"" id=3Dcomment-895><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-895">June=20
+  28th, 2008 at 12:52 am</A> </SMALL>
+  <P>Lapubell, please download the new code from this temporary url: <A=20
+  =
+href=3D"http://fromvega.com/wordpress/wp-content/uploads/2008/06/jqueryea=
+sydrag-handler-test.js"=20
+  =
+rel=3Dnofollow>http://fromvega.com/wordpress/wp-content/uploads/2008/06/j=
+queryeasydrag-handler-test.js</A></P>
+  <P>So here goes a little explanation: for the handle to work it must =
+be a=20
+  child of the element you want to drag around. Then you call=20
+  .setHandler(=E2=80=99handler_id=E2=80=99) to make it work.</P>
+  =
+<P>$(=E2=80=9D#box2=E2=80=B3).easydrag(true);<BR>$(=E2=80=9D#box2=E2=80=B3=
+).setHandler(=E2=80=99handler3=E2=80=B2);</P>
+  <P>You should pass =E2=80=98true=E2=80=99 to the easydrag() method to =
+enable event bubbling.=20
+  Maybe it should be automatically set when calling setHandler(). =
+I=E2=80=99m going to=20
+  wait for some feedback before posting the new version.</P>
+  <P>Bye!</P>
+  <LI class=3Dalt id=3Dcomment-896><CITE>cn</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-896">June=20
+  29th, 2008 at 9:11 am</A> </SMALL>
+  <P>Awesome!Thx for the nice script.<BR>regards from China.</P>
+  <LI class=3D"" id=3Dcomment-897><CITE><A=20
+  href=3D"http://www.aneveningwithdotmatrix.com/"=20
+  rel=3D"external nofollow">Lapubell</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-897">July=20
+  2nd, 2008 at 5:07 pm</A> </SMALL>
+  <P>this is working fantastically.</P>
+  <P>the OSX/Linux layout is coming along greatly! to see the progress =
+of the=20
+  page go to <A href=3D"http://www.aneveningwithdotmatrix.com/os.php."=20
+  rel=3Dnofollow>http://www.aneveningwithdotmatrix.com/os.php.</A></P>
+  <P>the only windows that work currently are the home, about and music, =
+but=20
+  it=E2=80=99s coming along nicely!</P>
+  <P>thanks to your awesome revision!</P>
+  <P>PS, there is a catch to see if you are using internet explorer, so =
+if you=20
+  are using that, you won=E2=80=99t be able to pass. I recommend FireFox =
+3.</P>
+  <LI class=3Dalt id=3Dcomment-898><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-898">July=20
+  2nd, 2008 at 5:47 pm</A> </SMALL>
+  <P>Lapubell, I=E2=80=99m glad to see it has been useful for you! Your =
+project looks=20
+  cool! Just a tip, differently from my previous comment, you =
+shouldn=E2=80=99t need to=20
+  pass =E2=80=9Ctrue=E2=80=9D to the easydrag() method anymore if you =
+are calling setHandler()=20
+  after. Give it a try!</P>
+  <LI class=3D"" id=3Dcomment-900><CITE>randy</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-900">July=20
+  15th, 2008 at 12:49 pm</A> </SMALL>
+  <P>i love this plugin!</P>
+  <P>i am running into a bit of trouble when i add in a drag/drop handle =
+though.=20
+  i get the following error on FF2 whenever i click inside the div =
+i=E2=80=99ve setup as=20
+  the handle:</P>
+  <P>handler.apply is not a function<BR><A=20
+  href=3D"http://localhost:2630/contracts/js/jquery-1.2.6.js"=20
+  =
+rel=3Dnofollow>http://localhost:2630/contracts/js/jquery-1.2.6.js</A><BR>=
+Line=20
+  2076</P>
+  <LI class=3Dalt id=3Dcomment-901><CITE>randy</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-901">July=20
+  15th, 2008 at 12:59 pm</A> </SMALL>
+  <P>i hate to do this, but i edited my jquery.js file adding in the =
+following=20
+  check for undefined, and things are working fine now:</P>
+  <P>if (handler.apply !=3D undefined)</P>
+  <LI class=3D"" id=3Dcomment-902><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-902">July=20
+  15th, 2008 at 1:29 pm</A> </SMALL>
+  <P>Hello randy, at a first glance it seems that something is wrong =
+with your=20
+  code. What is this .apply() method that you are calling? Give it a =
+check!</P>
+  <LI class=3Dalt id=3Dcomment-903><CITE>randy</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-903">July=20
+  15th, 2008 at 2:16 pm</A> </SMALL>
+  <P>wow that was quick!</P>
+  <P>i didn=E2=80=99t explain myself very well. sorry about that. my =
+(temporary) fix for=20
+  this issue was to hack the jquery-1.2.6.js file itself. which is =
+terrible, i=20
+  know. i imagine that i may find my =E2=80=9Cfix=E2=80=9D has broken =
+something else, but so far=20
+  so good. i am truly surprised it worked at all.</P>
+  <P>if you grab the jquery-1.2.6.js file and look at line 2076, that is =
+where=20
+  the error is reported to occur. when i added in the check (see my 2nd =
+comment)=20
+  the error went away.</P>
+  <LI class=3D"" id=3Dcomment-904><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-904">July=20
+  15th, 2008 at 2:49 pm</A> </SMALL>
+  <P>hi randy, the error is reported there but I=E2=80=99m pretty sure =
+it is caused by=20
+  something other than jQuery code, maybe something wrong with your =
+code.</P>
+  <LI class=3Dalt id=3Dcomment-905><CITE>randy</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-905">July=20
+  16th, 2008 at 12:14 pm</A> </SMALL>
+  <P>i took another look at this, creating a very stripped down example. =
+with no=20
+  script besides a call to .easydrag() and a call to setHandler(), but i =
+am=20
+  still seeing the error. my html is pretty basic, i=E2=80=99m using a =
+div for the=20
+  draggable box, and another div inside this to pass to the setHandler() =
+
+  call.</P>
+  <P>personally i think it=E2=80=99s ok to have no handle on the =
+draggable window, BUT=20
+  without the handle, another bug occurs. my draggable div contains a =
+textarea=20
+  and it seems like you cannot click on the textarea when =
+there=E2=80=99s no handle=20
+  setup. the user must tab into the textarea to begin using it.</P>
+  <LI class=3D"" id=3Dcomment-906><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-906">July=20
+  16th, 2008 at 12:33 pm</A> </SMALL>
+  <P>hey randy, it=E2=80=99s not a bug=E2=80=A6 there is a section in =
+the article that explains=20
+  that. What you just need to do is to pass true to the easydrag method, =
+like=20
+  $(=E2=80=9D#box1=E2=80=B3).easydrag(true);</P>
+  <LI class=3Dalt id=3Dcomment-907><CITE>randy</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-907">July=20
+  16th, 2008 at 12:40 pm</A> </SMALL>
+  <P>sorry about that, my previous comment was a bit unclear. i was =
+passing true=20
+  to easydrag(true) and i also tried passing in false and passing in no=20
+  parameter at all. if i had a website handy where i could post my =
+example i=20
+  would do so. </P>
+  <P>again, thanks for your quick follow-up!</P>
+  <LI class=3D"" id=3Dcomment-908><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-908">July=20
+  16th, 2008 at 12:42 pm</A> </SMALL>
+  <P>I=E2=80=99m going to verify this. Thanks!</P>
+  <LI class=3Dalt id=3Dcomment-909><CITE>Andiih</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-909">July=20
+  16th, 2008 at 1:18 pm</A> </SMALL>
+  <P>I=E2=80=99m also getting the handler.apply error, and also have the =
+issue that=20
+  without the handler, the event bubble doesn=E2=80=99t work and the =
+user cant use the=20
+  form. Other than that - bloomin marvelous. I love it when a plan comes =
+
+  together=E2=80=A6</P>
+  <LI class=3D"" id=3Dcomment-910><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-910">July=20
+  16th, 2008 at 1:53 pm</A> </SMALL>
+  <P>Hi Andiih and Randy, I have just posted a new beta version with =
+this bug=20
+  correction. Please download the new version and give it a try!</P>
+  <P>Randy, I have tested the text box withing a draggable and it worked =
+fine!=20
+  Please let me now if you are still facing this problem!</P>
+  <P>Enjoy!<BR><A=20
+  =
+href=3D"http://fromvega.com/code/easydrag/jquery.easydrag.handler.beta2.j=
+s"=20
+  =
+rel=3Dnofollow>http://fromvega.com/code/easydrag/jquery.easydrag.handler.=
+beta2.js</A></P>
+  <LI class=3Dalt id=3Dcomment-911><CITE>randy</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-911">July=20
+  16th, 2008 at 2:08 pm</A> </SMALL>
+  <P>EASYDRAG IS THE SHIT!!!</P>
+  <P>thanks for that update. as to my issue with the textarea, that =
+seems to=20
+  have been a hallucination=E2=80=A6it works fine now for me in both FF2 =
+&amp; IE7.</P>
+  <LI class=3D"" id=3Dcomment-912><CITE>Andiih</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-912">July=20
+  17th, 2008 at 5:50 am</A> </SMALL>
+  <P>Yep, thats sorted that problem out. Thanks for such quick feedback. =
+I also=20
+  took a second look at it without the handle. Although with event =
+bubbling on,=20
+  it does =E2=80=9Cwork=E2=80=9D, the usual mouse gestures such as =
+selection (highlighting a=20
+  chunk of text in a textarea) still cause a drag action instead which =
+is=20
+  undesirable. With the handle, this isn=E2=80=99t a problem. =
+Perfect.</P>
+  <LI class=3Dalt id=3Dcomment-913><CITE>payne</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-913">July=20
+  21st, 2008 at 3:52 am</A> </SMALL>
+  <P>Great,I really appreciate it.</P>
+  <LI class=3D"" id=3Dcomment-923><CITE>olaf</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-923">July=20
+  30th, 2008 at 4:31 am</A> </SMALL>
+  <P>How to get the position of one item to be dragged; his position =
+before any=20
+  drag.<BR>The $.fn.ondrag function fire each time the mouse is moved =
+while the=20
+  mouse button is pressed</P>
+  <LI class=3Dalt id=3Dcomment-927><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-927">August=20
+  3rd, 2008 at 1:10 am</A> </SMALL>
+  <P>Hi olaf, EasyDrag per se doesn=E2=80=99t provide a method for that. =
+But you can=20
+  always use plain javascript or jQuery to get the position of the =
+element. Most=20
+  of the times you can simple read its =E2=80=98top=E2=80=99 and =
+=E2=80=98left=E2=80=99 css properties.</P>
+  <LI class=3D"" id=3Dcomment-934><CITE><A =
+href=3D"http://stillworkingitout/"=20
+  rel=3D"external nofollow">blakef</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-934">August=20
+  13th, 2008 at 11:30 am</A> </SMALL>
+  <P>hate to ask this, but how to drag a clone? </P>
+  <P>I=E2=80=99m building this drag things into one thing, and then the =
+container onto=20
+  another place, and could use a clone for a copy rather than move =
+operation.=20
+  (or is that something left to the user to implement).</P>
+  <P>BTW - this is great code and has simplified my life =
+tremendously.</P>
+  <LI class=3Dalt id=3Dcomment-935><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-935">August=20
+  13th, 2008 at 1:32 pm</A> </SMALL>
+  <P>Hello blakef, I=E2=80=99m not sure if I understood your question. =
+Do you want to=20
+  clone an element by creating a copy of it and placing it in the same =
+relative=20
+  position inside another container? If it is what you want, this plugin =
+doesn=E2=80=99t=20
+  help but you can simply set the new element position based on the =
+original one=20
+  (assuming they are relatively positioned) by copying its x and y=20
+  properties.</P>
+  <LI class=3D"" id=3Dcomment-936><CITE><A href=3D"http://notdoneyet/"=20
+  rel=3D"external nofollow">blakef</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-936">August=20
+  13th, 2008 at 3:27 pm</A> </SMALL>
+  <P>hello fromvega,</P>
+  <P>thanks for the prompt reply, and sorry for the confusion (lack of=20
+sleep)</P>
+  <P>I want to have the orginal item left and a copy dragged when I =
+start the=20
+  drag. Might have to do this for a list of items (it=E2=80=99s messy) =
+and targets, so=20
+  one item might go to many targets (hence the need to drag copies). =
+</P>
+  <P>so something like $(=E2=80=9D#box1=E2=80=B3).clone().easydrag()? =
+</P>
+  <P>(sorry, new to jQuery, so if it=E2=80=99s intrinsic, I apologize, =
+hints=20
+  appreciated).</P>
+  <LI class=3Dalt id=3Dcomment-937><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-937">August=20
+  13th, 2008 at 8:28 pm</A> </SMALL>
+  <P>Hello blakef, unfortunately the current version of this plugin =
+doesn=E2=80=99t have=20
+  a =E2=80=9Cdrag clone=E2=80=9D feature out of the box. Although =
+it=E2=80=99s a good idea for future=20
+  versions! I have tried something here, it works but it has some =
+problems=20
+  positioning the element according to the mouse pointer. Sorry, I =
+don=E2=80=99t have=20
+  much time at the moment to spend with it. But I hope it can give you =
+an idea=20
+  to start. Voil=C3=A0:</P>
+  =
+<P>$(=E2=80=9D#box1=E2=80=B3).mousedown(function(){<BR>$(this).clone().in=
+sertAfter(this).easydrag().mousedown();<BR>});</P>
+  <P>Note that you don=E2=80=99t need to call easydrag for #box1 since =
+it=E2=80=99s going to=20
+  stay static. Please post back if you find a better way.</P>
+  <LI class=3D"" id=3Dcomment-944><CITE>Kyle</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-944">August=20
+  20th, 2008 at 7:10 pm</A> </SMALL>
+  <P>Excellent plugin. Great work.</P>
+  <P>Using beta2, one feature/bug: After calling .dragOff(), the =
+element=E2=80=99s=20
+  cursor retains the move pointer. From a user interface perspective, it =
+
+  probably makes more sense to return the element to it=E2=80=99s =
+previous cursor =E2=80=94=20
+  because otherwise it still looks draggable. Might be nice to save the =
+cursor=20
+  value when easydrag is instantiated, and then reset the pointer to =
+that value=20
+  when dragOff() is called.</P>
+  <P>Thanks.</P>
+  <LI class=3Dalt id=3Dcomment-946><CITE><A =
+href=3D"http://www.headlinercreative.com/"=20
+  rel=3D"external nofollow">Tevi</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-946">September=20
+  1st, 2008 at 3:53 pm</A> </SMALL>
+  <P>I tried hacking this to make it drag a background image (position). =
+Any=20
+  idea on how to set lastElemLeft to be able to pick up the last left =
+position=20
+  of the background image? (tried using backgroundPositionX, but that =
+didn=E2=80=99t=20
+  work.)</P>
+  <LI class=3D"" id=3Dcomment-952><CITE>David</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-952">September=20
+  19th, 2008 at 3:04 am</A> </SMALL>
+  <P>Hi,</P>
+  <P>I am jquery n00b.<BR>Is there any drag and drop event calendar in=20
+  jquery.</P>
+  <P>I have a calendar full of events.. user wants to drag the event =
+from one=20
+  date to another date. </P>
+  <P>Please guide me.</P>
+  <P>Regards<BR>David</P>
+  <LI class=3Dalt id=3Dcomment-957><CITE><A =
+href=3D"http://www.blog.szabobogdan.com/"=20
+  rel=3D"external nofollow">Szabo Bogdan</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-957">September=20
+  26th, 2008 at 5:22 pm</A> </SMALL>
+  <P>When we=E2=80=99l have a .onStartDrag event?</P>
+  <LI class=3D"" id=3Dcomment-958><CITE>Pyraxis</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-958">September=20
+  28th, 2008 at 2:04 am</A> </SMALL>
+  <P>Is it possible to set the handler to a tag?<BR>I have multiple =
+windows that=20
+  i want draggable by the same tag and would like to set them with one=20
+  =
+line.<BR>jQuery(=E2=80=99.draggableWindow=E2=80=99).easydrag();<BR>jQuery=
+(=E2=80=99.draggableWindow=E2=80=99).setHandler(h1);<BR>or=20
+  something similar<BR>If its not available currently, how hard would =
+that be to=20
+  add on?</P>
+  <LI class=3Dalt id=3Dcomment-959><CITE>Pyraxis</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-959">September=20
+  28th, 2008 at 2:52 pm</A> </SMALL>
+  <P>Never mind, Just changed some code and got it running fine <IMG=20
+  class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif"><BR>Just=20
+  as a suggestion i think it would be better to leave it open, such that =
+you=20
+  could have the handle be something with a particular class, id, or =
+tag, using=20
+  the . , #, or nothing respectively with the name for it=E2=80=A6</P>
+  <LI class=3D"" id=3Dcomment-962><CITE>fromvega</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-962">September=20
+  29th, 2008 at 9:46 am</A> </SMALL>
+  <P>David, this is something you will need to implement. You need to =
+use drop=20
+  targets do detect when an element is being dropped inside another one. =
+
+  EasyDrag doesn=E2=80=99t provide it by default although you can use it =
+to implement=20
+  this feature. You can have a look at this example to have an idea how =
+you can=20
+  accomplish this: <A =
+href=3D"http://fromvega.com/code/easydrag/drop.html"=20
+  rel=3Dnofollow>http://fromvega.com/code/easydrag/drop.html</A></P>
+  <LI class=3Dalt id=3Dcomment-967><CITE>Abra Melin</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-967">October=20
+  7th, 2008 at 9:05 pm</A> </SMALL>
+  <P>Very nice plugin thank you very much but i want to save the last =
+position=20
+  of the drag. can you please make an example for this?</P>
+  <LI class=3D"" id=3Dcomment-969><CITE>Giles</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-969">October=20
+  8th, 2008 at 5:41 pm</A> </SMALL>
+  <P>Thanks very much for this plugin - first used it near the start of =
+the year=20
+  but had problem with not being able to highlight text in a textarea =
+contained=20
+  on the draggable div. I see this has been addressed with the =
+=E2=80=98handler=E2=80=99 and it=20
+  now does exactly what i need. great plugin.</P>
+  <LI class=3Dalt id=3Dcomment-991><CITE><A=20
+  href=3D"http://www.clittle.cn/jquery-plugins.html" rel=3D"external =
+nofollow">=E9=94=AE=E7=9B=98=E4=BA=BA=E7=94=9F=20
+  =C2=BB =
+=E5=BC=BA=E7=83=88=E6=8E=A8=E8=8D=90=EF=BC=9A240=E5=A4=9A=E4=B8=AAjQuery=E6=
+=8F=92=E4=BB=B6</A></CITE> Says: <BR><SMALL class=3Dcommentmetadata><A=20
+  title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-991">October=20
+  29th, 2008 at 11:24 am</A> </SMALL>
+  <P>[=E2=80=A6] Easing Plugin. jQuery Portlets. AutoScroll. Innerfade. =
+=E6=8B=96=E6=94=BE=E6=8F=92=E4=BB=B6(Drag and=20
+  Drop)UI/Draggables. EasyDrag jQuery Plugin. jQuery Portlets. jqDnR - =
+drag,=20
+  drop resize. Drag [=E2=80=A6]</P>
+  <LI class=3D"" id=3Dcomment-1026><CITE><A=20
+  href=3D"http://wp.2nono.com/2008/200-jquery-plug-in.html"=20
+  rel=3D"external nofollow">200+ jQuery=E6=8F=92=E4=BB=B6 | =
+=E6=B5=AE=E4=B8=96=E5=A4=B1=E7=84=A6</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1026">October=20
+  31st, 2008 at 2:42 am</A> </SMALL>
+  <P>[=E2=80=A6] EasyDrag jQuery Plugin. jQuery Portlets. jqDnR - drag, =
+drop resize.=20
+  Drag [=E2=80=A6]</P>
+  <LI class=3Dalt id=3Dcomment-1031><CITE><A=20
+  href=3D"http://my.nexe.ru/2008/10/31/200scriptsforjquery/"=20
+  rel=3D"external nofollow">240 =
+=D1=83=D0=B4=D0=B8=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =
+=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=BE=D0=B2 =D0=B4=D0=BB=D1=8F =
+jQuery | Parinoff=20
+  Life</A></CITE> Says: <BR><SMALL class=3Dcommentmetadata><A title=3D"" =
+
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1031">October=20
+  31st, 2008 at 10:44 am</A> </SMALL>
+  <P>[=E2=80=A6] EasyDrag jQuery Plugin [=E2=80=A6]</P>
+  <LI class=3D"" id=3Dcomment-1175><CITE><A =
+href=3D"http://www.project66.net/"=20
+  rel=3D"external nofollow">Jono</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1175">November=20
+  23rd, 2008 at 5:53 am</A> </SMALL>
+  <P>Hey great script. Is there any way to get the absolute position of =
+the=20
+  clicked object? Calling target.css(=E2=80=99left=E2=80=99) or =
+=E2=80=98top=E2=80=99 only returns the left and=20
+  top cords from where the target originally was positioned. What =
+i=E2=80=99m trying to=20
+  accomplish is where the object is located over top of an image. Any =
+thoughts?=20
+  Thx <IMG class=3Dwp-smiley alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif"></P>
+  <LI class=3Dalt id=3Dcomment-1178><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1178">November=20
+  24th, 2008 at 8:54 pm</A> </SMALL>
+  <P>Hey Jono and Abra Melin (sorry for the delay dude), if you =
+don=E2=80=99t have=20
+  problems in using another plugin I would suggest you to try the jquery =
+
+  Dimensions plugin. It provides you complete positioning information of =
+the=20
+  element. You can get it here: <A=20
+  href=3D"http://brandonaaron.net/docs/dimensions/"=20
+  rel=3Dnofollow>http://brandonaaron.net/docs/dimensions/</A></P>
+  <LI class=3D"" id=3Dcomment-1185><CITE>Doug</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1185">December=20
+  2nd, 2008 at 11:40 am</A> </SMALL>
+  <P>I=E2=80=99m getting an error on this page. It looks like you have a =
+parse error,=20
+  line 134.</P>
+  <P>$(function(){<BR>// add drag and drop functionality to=20
+  #box1<BR>$(=E2=80=9D#box1=E2=80=B3).easydrag();<BR>// set a function =
+to be called on a drop=20
+  event<BR>$(=E2=80=9D#box1=E2=80=B3).ondrop(function(e, element){ =
+alert(element + =E2=80=9D Dropped=E2=80=9D);=20
+  });<BR>});</P>
+  <P>It looks like you have a =E2=80=9C=E2=80=9D and =E2=80=9C=E2=80=9D =
+tag in your script.</P>
+  <LI class=3Dalt id=3Dcomment-1186><CITE>Doug</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1186">December=20
+  2nd, 2008 at 11:41 am</A> </SMALL>
+  <P>comments stripped out the tag above=E2=80=A6 [p] and [/p] tags.</P>
+  <LI class=3D"" id=3Dcomment-1187><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1187">December=20
+  2nd, 2008 at 12:20 pm</A> </SMALL>
+  <P>Thanks Doug, I think the code got messed up when I was editing it =
+through=20
+  Wordpress.</P>
+  <LI class=3Dalt id=3Dcomment-1201><CITE>rami</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1201">January=20
+  13th, 2009 at 7:44 am</A> </SMALL>
+  <P>can i save the position of this item after the drag</P>
+  <LI class=3D"" id=3Dcomment-1215><CITE>Ross</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1215">February=20
+  25th, 2009 at 4:12 pm</A> </SMALL>
+  <P>I=E2=80=99m trying to display this under a lightbox - any clues how =
+to achieve=20
+  this?</P>
+  <P>thanks in advance!</P>
+  <LI class=3Dalt id=3Dcomment-1216><CITE>Ross</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1216">February=20
+  25th, 2009 at 6:14 pm</A> </SMALL>
+  <P>w00t - fixed myself. Anyone else doing it, I changed this:</P>
+  <P>$(this).css(=E2=80=9Dz-index=E2=80=9D, parseInt( new =
+Date().getTime()/1000 ));</P>
+  <P>to this</P>
+  <P>$(this).css(=E2=80=9Dz-index=E2=80=9D, parseInt( 1 ));</P>
+  <LI class=3D"" id=3Dcomment-1222><CITE>Matthew Hill</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1222">March=20
+  18th, 2009 at 2:39 pm</A> </SMALL>
+  <P>Absolutely brilliant, thanks a lot! By the way, is there a minified =
+version=20
+  available? Thanks again, Mat.</P>
+  <LI class=3Dalt id=3Dcomment-1224><CITE>fromvega</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1224">March=20
+  19th, 2009 at 3:05 pm</A> </SMALL>
+  <P>Matthew, I=E2=80=99m sorry but no, there isn=E2=80=99t a minified =
+version available but you=20
+  can easily find the tools to minify it online. <IMG class=3Dwp-smiley =
+alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif"></P>
+  <LI class=3D"" id=3Dcomment-1225><CITE>kly508</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1225">March=20
+  31st, 2009 at 12:36 am</A> </SMALL>
+  <P>Hi, I am from China, I think you write well, respect:)</P>
+  <LI class=3Dalt id=3Dcomment-1242><CITE>chridam</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1242">June=20
+  8th, 2009 at 8:14 am</A> </SMALL>
+  <P>Nice plugin mate. Is there a way you can constrain the div element =
+being=20
+  dragged within another container i.e. containment?</P>
+  <LI class=3D"" id=3Dcomment-1252><CITE><A=20
+  href=3D"http://www.webtrafficroi.com/site-optimisation-tips/"=20
+  rel=3D"external =
+nofollow">http://www.webtrafficroi.com/site-optimisation-tips/</A></CITE>=
+=20
+  Says: <BR><SMALL class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1252">June=20
+  21st, 2009 at 2:04 am</A> </SMALL>
+  <P>I would like to have certain specific elements have a greater =
+z-index than=20
+  inital set vale as lorenzo suggests, however am not sure what extra =
+jQuery=20
+  code i need to do this, have =
+tried<BR>$(=E2=80=9D.bridge=E2=80=9D).css(=E2=80=9Dz-index=E2=80=9D,=E2=80=
+=9D50000=E2=80=B3); but=20
+  dosent seem to have any effect, if anyone can point me in right =
+direction be=20
+  much appreciated</P>
+  <LI class=3Dalt id=3Dcomment-1268><CITE><A =
+href=3D"http://www.southstrandbikes.com/"=20
+  rel=3D"external nofollow">Roger Grant</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1268">July=20
+  30th, 2009 at 3:11 am</A> </SMALL>
+  <P>I=E2=80=99m a Wordpress newbie and a PHP and Javascript newbie too. =
+I=E2=80=99m trying to=20
+  manually install the jquery.easydrag.handler.beta2.js by adding a line =
+to=20
+  [script-loader.php], but I can=E2=80=99t figure out what to add. I =
+uploaded your JS=20
+  file to /public_html/wp-includes/js/easydrag/ (I created the =
+=E2=80=9Ceasydrag=E2=80=9D=20
+  folder).</P>
+  <P>Any assistance would be greatly appreciated.</P>
+  <LI class=3D"" id=3Dcomment-1280><CITE>Charles</CITE> Says: <BR><SMALL =
+
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1280">September=20
+  27th, 2009 at 4:11 am</A> </SMALL>
+  <P>Hi,</P>
+  <P>Anyone know how to make this work with FANCYBOX?</P>
+  <LI class=3Dalt id=3Dcomment-1281><CITE><A =
+href=3D"http://www.estuportal.com/"=20
+  rel=3D"external nofollow">Gerardo</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1281">September=20
+  28th, 2009 at 11:22 am</A> </SMALL>
+  <P>Hello I would like to change my z-index<BR>I have for divs and when =
+I click=20
+  the div I would like to change the position of the z-index to be in =
+the top of=20
+  the divs. </P>
+  <P>Sorry for my english. I speek Spanish</P>
+  <LI class=3D"" id=3Dcomment-1294><CITE>jockey</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1294">December=20
+  10th, 2009 at 11:00 am</A> </SMALL>
+  <P>It=E2=80=99s a great plugin, thanks.<BR>May I request a =
+feature?<BR>I would like to=20
+  right click on the dropped target to let it go back to where it was=20
+  from.<BR>Sorry, I don=E2=80=99t know if it=E2=80=99s possible to do =
+that.<BR>Thank you for=20
+  your efforts.</P>
+  <LI class=3Dalt id=3Dcomment-1295><CITE>Glint</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1295">December=20
+  14th, 2009 at 2:58 am</A> </SMALL>
+  <P>Hi Jonah,</P>
+  <P>It would be great to have a look at your code.<BR>=E2=80=A6 thank =
+you/</P>
+  <LI class=3D"" id=3Dcomment-1300><CITE>Bill Porkland</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1300">January=20
+  22nd, 2010 at 1:25 pm</A> </SMALL>
+  <P>Nice plugin. But it have problems in ie7 with absolute right =
+positioned=20
+  elements. for example:</P>
+  =
+<P>#id{<BR>position:absolute;<BR>top:75px;<BR>overflow:visible;<BR>right:=
+75%;<BR>z-index:3;<BR>}</P>
+  <LI class=3Dalt id=3Dcomment-1301><CITE>Bill Porkland</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1301">January=20
+  22nd, 2010 at 1:28 pm</A> </SMALL>
+  <P>For fix my problem you must give width to all your draggable =
+divs</P>
+  <LI class=3D"" id=3Dcomment-1303><CITE><A=20
+  href=3D"http://www.mcculloughdesigns.com/blog" rel=3D"external =
+nofollow">Joseph=20
+  McCullough</A></CITE> Says: <BR><SMALL class=3Dcommentmetadata><A =
+title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1303">February=20
+  2nd, 2010 at 3:09 am</A> </SMALL>
+  <P>Awesome stuff! I can=E2=80=99t wait to start getting into =
+jQuery.</P>
+  <LI class=3Dalt id=3Dcomment-1309><CITE><A =
+href=3D"http://www.ulusalfuar.com/"=20
+  rel=3D"external nofollow">Kursat</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1309">February=20
+  18th, 2010 at 11:35 pm</A> </SMALL>
+  <P>how can i write inside the box. because when we use this query we =
+can=E2=80=99t=20
+  choiice any word inside the box</P>
+  <LI class=3D"" id=3Dcomment-1320><CITE><A =
+href=3D"http://scriptforphp.blogspot.com/"=20
+  rel=3D"external nofollow">Vasim Padhiyar</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1320">March=20
+  31st, 2010 at 3:34 am</A> </SMALL>
+  <P>is there way with this plugins to drag div into the specific target =
+div=20
+  only ?<BR>and once it find target div and dropped it should draggable =
+=3D=20
+  false.<BR>one target div has its specific div to drop into =
+it.<BR>thank=20
+you</P>
+  <P>Vasim Padhiyar</P>
+  <LI class=3Dalt id=3Dcomment-1332><CITE>Rei Roldan</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1332">May=20
+  25th, 2010 at 8:12 pm</A> </SMALL>
+  <P>Nice plugin thanks!!!</P>
+  <P>In the setHandler method you should probably change:</P>
+  <P>// change handle cursor type<BR>$(=E2=80=9D#=E2=80=9D + =
+handlerId).css(=E2=80=9Dcursor=E2=80=9D,=20
+  =E2=80=9Cmove=E2=80=9D);</P>
+  <P>// bind event handler<BR>$(=E2=80=9D#=E2=80=9D + =
+handlerId).mousedown(function (e)=20
+  {<BR>holdingHandler =3D =
+true;<BR>$(draggable).trigger(=E2=80=99mousedown=E2=80=99,=20
+e);<BR>});</P>
+  <P>// bind event handler<BR>$(=E2=80=9D#=E2=80=9D + =
+handlerId).mouseup(function (e)=20
+  {<BR>holdingHandler =3D false;<BR>});</P>
+  <P>To something like this:</P>
+  <P>var handler =3D $(handlerId, draggable);</P>
+  <P>// change handle cursor =
+type<BR>handler.css(=E2=80=9Dcursor=E2=80=9D, =
+=E2=80=9Cmove=E2=80=9D);</P>
+  <P>// bind event handler<BR>handler.mousedown(function (e) =
+{<BR>holdingHandler=20
+  =3D true;<BR>$(draggable).trigger(=E2=80=99mousedown=E2=80=99, =
+e);<BR>});</P>
+  <P>// bind event handler<BR>handler.mouseup(function (e) =
+{<BR>holdingHandler =3D=20
+  false;<BR>});</P>
+  <P>avoiding having to set the handler by id <IMG class=3Dwp-smiley =
+alt=3D:)=20
+  =
+src=3D"http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smil=
+e.gif">=20
+  </P>
+  <P>Good work on the plugin</P>
+  <LI class=3D"" id=3Dcomment-1334><CITE>Emmanuel Delay</CITE> Says: =
+<BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1334">May=20
+  31st, 2010 at 3:15 pm</A> </SMALL>
+  <P>Hey,</P>
+  <P>First of all, thanks. Works great.</P>
+  <P>This script can be extended to make a slider control.<BR>example: =
+<A=20
+  href=3D"http://www.manutechnica.com/slider/"=20
+  rel=3Dnofollow>http://www.manutechnica.com/slider/</A></P>
+  <P>It still needs some work.</P>
+  <LI class=3Dalt id=3Dcomment-1338><CITE>loleg</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1338">June=20
+  12th, 2010 at 3:48 pm</A> </SMALL>
+  <P>I=E2=80=99ve changed the fixed z-index to this to make the dragged =
+element always=20
+  go to the top of the page:</P>
+  <P>// set z-index<BR>if (window.lastdraggedix =3D=3D null) =
+window.lastdraggedix =3D=20
+  0;<BR>$(this).css(=E2=80=9Dz-index=E2=80=9D, ++window.lastdraggedix + =
+1000);</P>
+  <LI class=3D"" id=3Dcomment-1341><CITE><A href=3D"http://bigbad.ru/"=20
+  rel=3D"external nofollow">Bigbad</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1341">June=20
+  29th, 2010 at 8:41 pm</A> </SMALL>
+  <P>Very big thanks! It=E2=80=99s a simple, but nice plug-in! I like to =
+have it!</P>
+  <LI class=3Dalt id=3Dcomment-1342><CITE>anna</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1342">July=20
+  1st, 2010 at 9:04 pm</A> </SMALL>
+  <P>Hi, there - great plugin.<BR>Having a problem when my dragged =
+element has=20
+  scrollbars. After you scroll, the mouse gets stuck in drag and I =
+can=E2=80=99t get it=20
+  to release the element.<BR>Any ideas?<BR>Thanks!</P>
+  <LI class=3D"" id=3Dcomment-1344><CITE><A href=3D"http://tivin.net/"=20
+  rel=3D"external nofollow">mp3 dinle</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1344">July=20
+  4th, 2010 at 6:55 pm</A> </SMALL>
+  <P>Hey,</P>
+  <P>First of all, thanks. Works great. Good work on the plugin</P>
+  <LI class=3Dalt id=3Dcomment-1347><CITE><A =
+href=3D"http://obo4you.in.ua/"=20
+  rel=3D"external nofollow">JohnnyDonetsk</A></CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1347">July=20
+  11th, 2010 at 11:11 am</A> </SMALL>
+  <P>Script saved me a lot of time thanks</P>
+  <LI class=3D"" id=3Dcomment-1365><CITE>riant</CITE> Says: <BR><SMALL=20
+  class=3Dcommentmetadata><A title=3D""=20
+  =
+href=3D"http://fromvega.com/wordpress/2007/07/14/easydrag-jquery-plugin/#=
+comment-1365">August=20
+  3rd, 2010 at 10:27 pm</A> </SMALL>
+  <P>Hello, loleg __ Thanks for you idea, I change it =
+to<BR>_______________</P>
+  <P>if (window.lastdraggedix =3D=3D null) window.lastdraggedix =3D=20
+  0;<BR>$(this).css(=E2=80=9Dz-index=E2=80=9D, ++window.lastdraggedix +=20
+  10);<BR>_______________</P></LI></OL>
+<H3 id=3Drespond>Leave a Reply</H3>
+<FORM id=3Dcommentform =
+action=3Dhttp://fromvega.com/wordpress/wp-comments-post.php=20
+method=3Dpost>
+<P><INPUT id=3Dauthor tabIndex=3D1 size=3D22 name=3Dauthor> <LABEL=20
+for=3Dauthor><SMALL>Name (required)</SMALL></LABEL></P>
+<P><INPUT id=3Demail tabIndex=3D2 size=3D22 name=3Demail> <LABEL =
+for=3Demail><SMALL>Mail=20
+(will not be published) (required)</SMALL></LABEL></P>
+<P><INPUT id=3Durl tabIndex=3D3 size=3D22 name=3Durl> <LABEL=20
+for=3Durl><SMALL>Website</SMALL></LABEL></P><!--<p><small><strong>XHTML:<=
+/strong> You can use these tags: &lt;a href=3D&quot;&quot; =
+title=3D&quot;&quot;&gt; &lt;abbr title=3D&quot;&quot;&gt; &lt;acronym =
+title=3D&quot;&quot;&gt; &lt;b&gt; &lt;blockquote =
+cite=3D&quot;&quot;&gt; &lt;code&gt; &lt;em&gt; &lt;i&gt; &lt;strike&gt; =
+&lt;strong&gt; </small></p>-->
+<P><TEXTAREA id=3Dcomment tabIndex=3D4 name=3Dcomment rows=3D10 =
+cols=3D100></TEXTAREA></P>
+<P><INPUT id=3Dsubmit tabIndex=3D5 type=3Dsubmit value=3D"Submit =
+Comment" name=3Dsubmit>=20
+<INPUT type=3Dhidden value=3D17 name=3Dcomment_post_ID> </P>
+<SCRIPT type=3Dtext/javascript>
+				dko4e0 =3D '';
+		=09
+		dko4e0 +=3D '400a33b9';					=09
+				dko4e0 +=3D '0';	=09
+				dko4e0 +=3D '1';	=09
+				dko4e0 +=3D '2';	=09
+				dko4e0 +=3D 'd';	=09
+				dko4e0 +=3D 'b';	=09
+				dko4e0 +=3D '7';	=09
+				dko4e0 +=3D '8';	=09
+				dko4e0 +=3D 'f';	=09
+				dko4e0 +=3D 'a';	=09
+				dko4e0 +=3D 'c';	=09
+				dko4e0 +=3D 'e';	=09
+				dko4e0 +=3D 'e';	=09
+				dko4e0 +=3D '4';	=09
+				dko4e0 +=3D 'b';	=09
+				dko4e0 +=3D 'f';	=09
+				dko4e0 +=3D '6';	=09
+				dko4e0 +=3D '4';	=09
+				dko4e0 +=3D 'e';	=09
+				dko4e0 +=3D '3';	=09
+				dko4e0 +=3D 'a';	=09
+				dko4e0 +=3D '3';	=09
+				dko4e0 +=3D 'c';	=09
+				dko4e0 +=3D '4';	=09
+				dko4e0 +=3D '0';	=09
+				=09
+		spamBam_storeSession(dko4e0);
+	</SCRIPT>
+
+<P class=3Dsubscribe-to-comments style=3D"CLEAR: both"><INPUT =
+id=3Dsubscribe=20
+style=3D"DISPLAY: inline" type=3Dcheckbox value=3Dsubscribe =
+name=3Dsubscribe> <LABEL=20
+style=3D"DISPLAY: inline" for=3Dsubscribe>Notify me of follow up =
+comments via=20
+e-mail</LABEL> </P></FORM></DIV>
+<HR>
+
+<DIV id=3Dfooter><!-- If you'd like to support WordPress, having the =
+"powered by" link someone on your blog is the best way, it's our only =
+promotion or advertising. -->
+<P>fromvega.com is proudly powered by <A=20
+href=3D"http://wordpress.org/">WordPress</A> <BR><A=20
+href=3D"http://fromvega.com/wordpress/feed/">Entries (RSS)</A> and <A=20
+href=3D"http://fromvega.com/wordpress/comments/feed/">Comments =
+(RSS)</A>. <!-- 17 queries. 0.578 seconds. --></P></DIV></DIV><!-- =
+Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ =
+--></BODY></HTML>
+
+------=_NextPart_000_0000_01CB7C6D.418CB110
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://fromvega.com/wordpress/wp-includes/images/smilies/icon_smile.gif
+
+R0lGODlhDwAPALMOAP/qAEVFRQAAAP/OAP/JAP+0AP6dAP/+k//9E///////xzMzM///6//lAAAA
+AAAAACH5BAEAAA4ALAAAAAAPAA8AAARb0EkZap3YVabOGRcWcAgCnIMRTEEnCCfwpqt2mHEOagoO
+nz+CKnADxoKFyiHHBBCSAdOiCVg8KwPZa7sVrgJZQWI8FhB2msGgwTXTWGqCXP4WBQr4wjDDstQm
+EQA7
+
+------=_NextPart_000_0000_01CB7C6D.418CB110
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://fromvega.com/wordpress/wp-includes/images/smilies/icon_wink.gif
+
+R0lGODlhDwAPALMMAP/qAEVFRQAAAP/OAP/JAP6dAP+0AP/+k//9E///x//lAP//6wAAAAAAAAAA
+AAAAACH5BAEAAAwALAAAAAAPAA8AAARXkEkZap2Y1ZXOGRcWcAgCnEMRTEEnnDCQrtrxxjCoJSZw
++y+CKnDo/WAEQ+WAwyUrvWZQGRg0TwKFcFX1xYI6zWCgEJizhBlrTGi31aKAYW4YZlgW2iQCADs=
+
+------=_NextPart_000_0000_01CB7C6D.418CB110
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://fromvega.com/wordpress/wp-content/themes/default/style.css
+
+BODY {
+	FONT-SIZE: 62.5%; BACKGROUND: url(images/kubrickbgcolor.jpg) #d5d6d7; =
+COLOR: #333; FONT-FAMILY: 'Lucida Grande', Verdana, Arial, Sans-Serif; =
+TEXT-ALIGN: center
+}
+#page {
+	BORDER-RIGHT: #959596 1px solid; BORDER-TOP: #959596 1px solid; =
+BORDER-LEFT: #959596 1px solid; BORDER-BOTTOM: #959596 1px solid; =
+BACKGROUND-COLOR: white; TEXT-ALIGN: left
+}
+#header {
+	BACKGROUND: url(images/kubrickheader.jpg) #73a0c5 no-repeat center =
+bottom
+}
+#headerimg {
+	MARGIN: 7px 9px 0px; WIDTH: 740px; HEIGHT: 192px
+}
+#content {
+	FONT-SIZE: 1.2em
+}
+.widecolumn .entry P {
+	FONT-SIZE: 1.05em
+}
+.narrowcolumn .entry {
+	LINE-HEIGHT: 1.4em
+}
+.widecolumn .entry {
+	LINE-HEIGHT: 1.4em
+}
+.widecolumn {
+	LINE-HEIGHT: 1.6em
+}
+.narrowcolumn .postmetadata {
+	TEXT-ALIGN: center
+}
+.alt {
+	BORDER-TOP: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid; =
+BACKGROUND-COLOR: #f8f8f8
+}
+#footer {
+	BACKGROUND: url(images/kubrickfooter.jpg) #eee no-repeat 50% top; =
+BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+SMALL {
+	FONT-SIZE: 0.9em; LINE-HEIGHT: 1.5em; FONT-FAMILY: Arial, Helvetica, =
+Sans-Serif
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', =
+Verdana, Arial, Sans-Serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', =
+Verdana, Arial, Sans-Serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', =
+Verdana, Arial, Sans-Serif
+}
+H1 {
+	FONT-SIZE: 4em; TEXT-ALIGN: center
+}
+#headerimg .description {
+	FONT-SIZE: 1.2em; TEXT-ALIGN: center
+}
+H2 {
+	FONT-SIZE: 1.6em
+}
+H2.pagetitle {
+	FONT-SIZE: 1.6em
+}
+#sidebar H2 {
+	FONT-SIZE: 1.2em; FONT-FAMILY: 'Lucida Grande', Verdana, Sans-Serif
+}
+H3 {
+	FONT-SIZE: 1.3em
+}
+H1 {
+	COLOR: white; TEXT-DECORATION: none
+}
+H1 A {
+	COLOR: white; TEXT-DECORATION: none
+}
+H1 A:hover {
+	COLOR: white; TEXT-DECORATION: none
+}
+H1 A:visited {
+	COLOR: white; TEXT-DECORATION: none
+}
+#headerimg .description {
+	COLOR: white; TEXT-DECORATION: none
+}
+H2 {
+	COLOR: #333
+}
+H2 A {
+	COLOR: #333
+}
+H2 A:visited {
+	COLOR: #333
+}
+H3 {
+	COLOR: #333
+}
+H3 A {
+	COLOR: #333
+}
+H3 A:visited {
+	COLOR: #333
+}
+H2 {
+	TEXT-DECORATION: none
+}
+H2 A {
+	TEXT-DECORATION: none
+}
+H2 A:hover {
+	TEXT-DECORATION: none
+}
+H2 A:visited {
+	TEXT-DECORATION: none
+}
+H3 {
+	TEXT-DECORATION: none
+}
+H3 A {
+	TEXT-DECORATION: none
+}
+H3 A:hover {
+	TEXT-DECORATION: none
+}
+H3 A:visited {
+	TEXT-DECORATION: none
+}
+#sidebar H2 {
+	TEXT-DECORATION: none
+}
+#wp-calendar CAPTION {
+	TEXT-DECORATION: none
+}
+CITE {
+	TEXT-DECORATION: none
+}
+.entry P A:visited {
+	COLOR: #b85b5a
+}
+.commentlist LI {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+#commentform INPUT {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+#commentform TEXTAREA {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+.commentlist LI {
+	FONT-WEIGHT: bold
+}
+.commentlist CITE {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.1em; FONT-STYLE: normal
+}
+.commentlist CITE A {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.1em; FONT-STYLE: normal
+}
+.commentlist P {
+	FONT-WEIGHT: normal; TEXT-TRANSFORM: none; LINE-HEIGHT: 1.5em
+}
+#commentform P {
+	FONT-FAMILY: 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+.commentmetadata {
+	FONT-WEIGHT: normal
+}
+#sidebar {
+	FONT: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif
+}
+SMALL {
+	COLOR: #777
+}
+#sidebar UL UL LI {
+	COLOR: #777
+}
+#sidebar UL OL LI {
+	COLOR: #777
+}
+.nocomments {
+	COLOR: #777
+}
+.postmetadata {
+	COLOR: #777
+}
+BLOCKQUOTE {
+	COLOR: #777
+}
+STRIKE {
+	COLOR: #777
+}
+CODE {
+	FONT: 1.1em 'Courier New', Courier, Fixed
+}
+ACRONYM {
+	FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+}
+ABBR {
+	FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+}
+SPAN.caps {
+	FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+}
+A {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+H2 A:hover {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+H3 A:hover {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #147; TEXT-DECORATION: underline
+}
+#wp-calendar #prev A {
+	FONT-SIZE: 9pt
+}
+#wp-calendar #next A {
+	FONT-SIZE: 9pt
+}
+#wp-calendar A {
+	TEXT-DECORATION: none
+}
+#wp-calendar CAPTION {
+	FONT: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif; =
+TEXT-ALIGN: center
+}
+#wp-calendar TH {
+	TEXT-TRANSFORM: capitalize; FONT-STYLE: normal
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+0px 20px; PADDING-TOP: 0px
+}
+#page {
+	BORDER-RIGHT: #959596 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#959596 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 20px =
+auto; BORDER-LEFT: #959596 1px solid; WIDTH: 760px; PADDING-TOP: 0px; =
+BORDER-BOTTOM: #959596 1px solid; BACKGROUND-COLOR: white
+}
+#header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+0px 0px 1px; WIDTH: 758px; PADDING-TOP: 0px; HEIGHT: 200px; =
+BACKGROUND-COLOR: #73a0c5
+}
+#headerimg {
+	MARGIN: 0px; WIDTH: 100%; HEIGHT: 200px
+}
+.narrowcolumn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 45px; FLOAT: left; PADDING-BOTTOM: =
+20px; MARGIN: 0px; WIDTH: 450px; PADDING-TOP: 0px
+}
+.widecolumn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: =
+5px 0px 0px 150px; WIDTH: 450px; PADDING-TOP: 10px
+}
+.post {
+	MARGIN: 0px 0px 40px; TEXT-ALIGN: justify
+}
+.post HR {
+	DISPLAY: block
+}
+.widecolumn .post {
+	MARGIN: 0px
+}
+.narrowcolumn .postmetadata {
+	PADDING-TOP: 5px
+}
+.widecolumn .postmetadata {
+	MARGIN: 30px 0px
+}
+.widecolumn .smallattachment {
+	FLOAT: left; MARGIN: 5px 5px 5px 0px; WIDTH: 128px; TEXT-ALIGN: center
+}
+.widecolumn .attachment {
+	MARGIN: 5px 0px; TEXT-ALIGN: center
+}
+.postmetadata {
+	CLEAR: left
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: =
+0px; MARGIN: 0px auto; WIDTH: 760px; PADDING-TOP: 0px
+}
+#footer P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: =
+0px; PADDING-TOP: 20px; TEXT-ALIGN: center
+}
+H1 {
+	MARGIN: 0px; PADDING-TOP: 70px
+}
+H2 {
+	MARGIN: 30px 0px 0px
+}
+H2.pagetitle {
+	MARGIN-TOP: 30px; TEXT-ALIGN: center
+}
+#sidebar H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px =
+0px 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+30px 0px 0px; PADDING-TOP: 0px
+}
+H3.comments {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+40px auto 20px; PADDING-TOP: 0px
+}
+P IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MAX-WIDTH: 100%; PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px
+}
+IMG.centered {
+	DISPLAY: block; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+IMG.alignright {
+	PADDING-RIGHT: 4px; DISPLAY: inline; PADDING-LEFT: 4px; PADDING-BOTTOM: =
+4px; MARGIN: 0px 0px 2px 7px; PADDING-TOP: 4px
+}
+IMG.alignleft {
+	PADDING-RIGHT: 4px; DISPLAY: inline; PADDING-LEFT: 4px; PADDING-BOTTOM: =
+4px; MARGIN: 0px 7px 2px 0px; PADDING-TOP: 4px
+}
+.alignright {
+	FLOAT: right
+}
+.alignleft {
+	FLOAT: left
+}
+HTML > BODY .entry UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; =
+MARGIN-LEFT: 0px; TEXT-INDENT: -10px; PADDING-TOP: 0px; LIST-STYLE-TYPE: =
+none
+}
+HTML > BODY .entry LI {
+	MARGIN: 7px 0px 8px 10px
+}
+.entry UL LI:unknown {
+	content: "? "
+}
+#sidebar UL UL LI:unknown {
+	content: "? "
+}
+.entry OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 35px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+.entry OL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+.postmetadata UL {
+	DISPLAY: inline; LIST-STYLE-IMAGE: none; LIST-STYLE-TYPE: none
+}
+.postmetadata LI {
+	DISPLAY: inline; LIST-STYLE-IMAGE: none; LIST-STYLE-TYPE: none
+}
+#sidebar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+#sidebar UL OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+#sidebar UL LI {
+	LIST-STYLE-IMAGE: none; MARGIN-BOTTOM: 15px; LIST-STYLE-TYPE: none
+}
+#sidebar UL P {
+	MARGIN: 5px 0px 8px
+}
+#sidebar UL SELECT {
+	MARGIN: 5px 0px 8px
+}
+#sidebar UL UL {
+	MARGIN: 5px 0px 0px 10px
+}
+#sidebar UL OL {
+	MARGIN: 5px 0px 0px 10px
+}
+#sidebar UL UL UL {
+	MARGIN: 0px 0px 0px 10px
+}
+#sidebar UL OL {
+	MARGIN: 0px 0px 0px 10px
+}
+OL LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal
+}
+#sidebar UL OL LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal
+}
+#sidebar UL UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px =
+0px 0px; PADDING-TOP: 0px
+}
+#sidebar UL OL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px =
+0px 0px; PADDING-TOP: 0px
+}
+#searchform {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; MARGIN: =
+10px auto; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+#sidebar #searchform #s {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: =
+108px; PADDING-TOP: 2px
+}
+#sidebar #searchsubmit {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; =
+PADDING-TOP: 1px
+}
+.entry FORM {
+	TEXT-ALIGN: center
+}
+SELECT {
+	WIDTH: 130px
+}
+#commentform INPUT {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 5px =
+5px 1px 0px; WIDTH: 170px; PADDING-TOP: 2px
+}
+#commentform TEXTAREA {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: =
+100%; PADDING-TOP: 2px
+}
+#commentform #submit {
+	FLOAT: right; MARGIN: 0px
+}
+.alt {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: =
+0px; PADDING-TOP: 10px
+}
+.commentlist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; TEXT-ALIGN: justify
+}
+.commentlist LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; MARGIN: =
+15px 0px 3px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+.commentlist P {
+	MARGIN: 10px 5px 10px 0px
+}
+#commentform P {
+	MARGIN: 5px 0px
+}
+.nocomments {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.commentmetadata {
+	DISPLAY: block; MARGIN: 0px
+}
+#sidebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; =
+MARGIN-LEFT: 545px; WIDTH: 190px; PADDING-TOP: 20px
+}
+#sidebar FORM {
+	MARGIN: 0px
+}
+#wp-calendar {
+	MARGIN: 10px auto 0px; WIDTH: 155px; empty-cells: show
+}
+#wp-calendar #next A {
+	PADDING-RIGHT: 10px; TEXT-ALIGN: right
+}
+#wp-calendar #prev A {
+	PADDING-LEFT: 10px; TEXT-ALIGN: left
+}
+#wp-calendar A {
+	DISPLAY: block
+}
+#wp-calendar CAPTION {
+	WIDTH: 100%; TEXT-ALIGN: center
+}
+#wp-calendar TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; =
+PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+#wp-calendar TD.pad:hover {
+	BACKGROUND-COLOR: #fff
+}
+ACRONYM {
+	CURSOR: help
+}
+ABBR {
+	CURSOR: help
+}
+SPAN.caps {
+	CURSOR: help
+}
+ACRONYM {
+	BORDER-BOTTOM: #999 1px dashed
+}
+ABBR {
+	BORDER-BOTTOM: #999 1px dashed
+}
+BLOCKQUOTE {
+	PADDING-LEFT: 20px; MARGIN: 15px 30px 0px 10px; BORDER-LEFT: #ddd 5px =
+solid
+}
+BLOCKQUOTE CITE {
+	DISPLAY: block; MARGIN: 5px 0px 0px
+}
+.center {
+	TEXT-ALIGN: center
+}
+HR {
+	DISPLAY: none
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+.navigation {
+	MARGIN-TOP: 10px; DISPLAY: block; MARGIN-BOTTOM: 60px; TEXT-ALIGN: =
+center
+}
+
+------=_NextPart_000_0000_01CB7C6D.418CB110
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://fromvega.com/code/easydrag/jquery-1.1.3.1.pack.js
+
+/*=0A=
+ * jQuery 1.1.3.1 - New Wave Javascript=0A=
+ *=0A=
+ * Copyright (c) 2007 John Resig (jquery.com)=0A=
+ * Dual licensed under the MIT (MIT-LICENSE.txt)=0A=
+ * and GPL (GPL-LICENSE.txt) licenses.=0A=
+ *=0A=
+ * $Date: 2007-07-05 00:43:24 -0400 (Thu, 05 Jul 2007) $=0A=
+ * $Rev: 2243 $=0A=
+ */=0A=
+eval(function(p,a,c,k,e,r){e=3Dfunction(c){return(c<a?'':e(parseInt(c/a))=
+)+((c=3Dc%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace=
+(/^/,String)){while(c--)r[e(c)]=3Dk[c]||e(c);k=3D[function(e){return =
+r[e]}];e=3Dfunction(){return'\\w+'};c=3D1};while(c--)if(k[c])p=3Dp.replac=
+e(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('7(1g =
+18.6=3D=3D"I"){18.I=3D18.I;u 6=3Dq(a,c){7(18=3D=3D9||!9.3X)v 14 6(a,c);v =
+9.3X(a,c)};7(1g $!=3D"I")6.1I$=3D$;u =
+$=3D6;6.11=3D6.8r=3D{3X:q(a,c){a=3Da||P;7(6.16(a))v 14 =
+6(P)[6.11.1G?"1G":"1W"](a);7(1g a=3D=3D"1s"){u =
+m=3D/^[^<]*(<(.|\\s)+>)[^>]*$/.1V(a);7(m)a=3D6.31([m[1]]);B v 14 =
+6(c).1L(a)}v =
+9.4E(a.15=3D=3D2b&&a||(a.3C||a.C&&a!=3D18&&!a.1q&&a[0]!=3DI&&a[0].1q)&&6.=
+2L(a)||[a])},3C:"1.1.3.1",7W:q(){v 9.C},C:0,1M:q(a){v =
+a=3D=3DI?6.2L(9):9[a]},1Z:q(a){u b=3D6(a);b.5q=3D9;v =
+b},4E:q(a){9.C=3D0;[].R.O(9,a);v 9},F:q(a,b){v 6.F(9,a,b)},2p:q(a){u =
+b=3D-1;9.F(q(i){7(9=3D=3Da)b=3Di});v b},1b:q(f,d,e){u =
+c=3Df;7(f.15=3D=3D33)7(d=3D=3DI)v =
+9.C&&6[e||"1b"](9[0],f)||I;B{c=3D{};c[f]=3Dd}v 9.F(q(a){E(u b V =
+c)6.1b(e?9.T:9,b,6.4H(9,c[b],e,a,b))})},1f:q(b,a){v =
+9.1b(b,a,"2z")},2A:q(e){7(1g e=3D=3D"1s")v 9.2Y().3e(P.66(e));u =
+t=3D"";6.F(e||9,q(){6.F(9.2S,q(){7(9.1q!=3D8)t+=3D9.1q!=3D1?9.5R:6.11.2A(=
+[9])})});v t},8b:q(){u a,1S=3D19;v 9.F(q(){7(!a)a=3D6.31(1S,9.2O);u =
+b=3Da[0].3s(K);9.L.2K(b,9);1v(b.1d)b=3Db.1d;b.4g(9)})},3e:q(){v =
+9.2F(19,K,1,q(a){9.4g(a)})},5w:q(){v =
+9.2F(19,K,-1,q(a){9.2K(a,9.1d)})},5t:q(){v =
+9.2F(19,N,1,q(a){9.L.2K(a,9)})},5s:q(){v =
+9.2F(19,N,-1,q(a){9.L.2K(a,9.1X)})},2U:q(){v 9.5q||6([])},1L:q(t){u =
+b=3D6.3k(9,q(a){v 6.1L(t,a)});v 9.1Z(/[^+>] =
+[^+>]/.17(t)||t.J("..")>-1?6.5g(b):b)},7x:q(e){u =
+d=3D9.1A(9.1L("*"));d.F(q(){9.1I$1a=3D{};E(u a V =
+9.$1a)9.1I$1a[a]=3D6.1c({},9.$1a[a])}).3U();u r=3D9.1Z(6.3k(9,q(a){v =
+a.3s(e!=3DI?e:K)}));d.F(q(){u b=3D9.1I$1a;E(u a V b)E(u c V =
+b[a])6.S.1A(9,a,b[a][c],b[a][c].W);9.1I$1a=3DH});v r},1i:q(t){v =
+9.1Z(6.16(t)&&6.2s(9,q(b,a){v t.O(b,[a])})||6.2x(t,9))},4Y:q(t){v =
+9.1Z(t.15=3D=3D33&&6.2x(t,9,K)||6.2s(9,q(a){v(t.15=3D=3D2b||t.3C)?6.2w(a,=
+t)<0:a!=3Dt}))},1A:q(t){v =
+9.1Z(6.1T(9.1M(),t.15=3D=3D33?6(t).1M():t.C!=3DI&&(!t.Q||t.Q=3D=3D"6Z")?t=
+:[t]))},37:q(a){v a?6.2x(a,9).C>0:N},6R:q(a){v =
+a=3D=3DI?(9.C?9[0].2v:H):9.1b("2v",a)},3F:q(a){v =
+a=3D=3DI?(9.C?9[0].27:H):9.2Y().3e(a)},2F:q(f,d,g,e){u c=3D9.C>1,a;v =
+9.F(q(){7(!a){a=3D6.31(f,9.2O);7(g<0)a.6E()}u =
+b=3D9;7(d&&6.Q(9,"1r")&&6.Q(a[0],"2V"))b=3D9.3R("1z")[0]||9.4g(P.5h("1z")=
+);6.F(a,q(){e.O(b,[c?9.3s(K):9])})})}};6.1c=3D6.11.1c=3Dq(){u =
+c=3D19[0],a=3D1;7(19.C=3D=3D1){c=3D9;a=3D0}u b;1v((b=3D19[a++])!=3DH)E(u =
+i V b)c[i]=3Db[i];v c};6.1c({6n:q(){7(6.1I$)$=3D6.1I$;v =
+6},16:q(a){v!!a&&1g =
+a!=3D"1s"&&!a.Q&&a.15!=3D2b&&/q/i.17(a+"")},40:q(a){v =
+a.4z&&a.2O&&!a.2O.4y},Q:q(b,a){v =
+b.Q&&b.Q.1D()=3D=3Da.1D()},F:q(a,b,c){7(a.C=3D=3DI)E(u i V =
+a)b.O(a[i],c||[i,a[i]]);B E(u =
+i=3D0,4x=3Da.C;i<4x;i++)7(b.O(a[i],c||[i,a[i]])=3D=3D=3DN)1F;v =
+a},4H:q(c,b,d,e,a){7(6.16(b))b=3Db.3D(c,[e]);u =
+f=3D/z-?2p|5Y-?8p|1e|5U|8i-?1u/i;v =
+b&&b.15=3D=3D3y&&d=3D=3D"2z"&&!f.17(a)?b+"4o":b},12:{1A:q(b,c){6.F(c.2R(/=
+\\s+/),q(i,a){7(!6.12.3w(b.12,a))b.12+=3D(b.12?" =
+":"")+a})},1E:q(b,c){b.12=3Dc!=3DI?6.2s(b.12.2R(/\\s+/),q(a){v!6.12.3w(c,=
+a)}).5M(" "):""},3w:q(t,c){v =
+6.2w(c,(t.12||t).3v().2R(/\\s+/))>-1}},4m:q(e,o,f){E(u i V =
+o){e.T["2N"+i]=3De.T[i];e.T[i]=3Do[i]}f.O(e,[]);E(u i V =
+o)e.T[i]=3De.T["2N"+i]},1f:q(e,p){7(p=3D=3D"1u"||p=3D=3D"29"){u =
+b=3D{},3r,3p,d=3D["83","81","80","7Y"];6.F(d,q(){b["7V"+9]=3D0;b["7T"+9+"=
+7S"]=3D0});6.4m(e,b,q(){7(6(e).37(\':4f\')){3r=3De.7Q;3p=3De.7O}B{e=3D6(e=
+.3s(K)).1L(":4b").5v("2B").2U().1f({48:"1y",3i:"7L",U:"2h",7K:"0",7I:"0"}=
+).5o(e.L)[0];u =
+a=3D6.1f(e.L,"3i")||"3n";7(a=3D=3D"3n")e.L.T.3i=3D"7G";3r=3De.7E;3p=3De.7=
+D;7(a=3D=3D"3n")e.L.T.3i=3D"3n";e.L.3q(e)}});v p=3D=3D"1u"?3r:3p}v =
+6.2z(e,p)},2z:q(e,a,d){u g;7(a=3D=3D"1e"&&6.M.1h){g=3D6.1b(e.T,"1e");v =
+g=3D=3D""?"1":g}7(a.3t(/3x/i))a=3D6.1U;7(!d&&e.T[a])g=3De.T[a];B =
+7(P.3f&&P.3f.3Y){7(a.3t(/3x/i))a=3D"3x";a=3Da.1o(/([A-Z])/g,"-$1").2H();u=
+ b=3DP.3f.3Y(e,H);7(b)g=3Db.57(a);B 7(a=3D=3D"U")g=3D"1P";B =
+6.4m(e,{U:"2h"},q(){u c=3DP.3f.3Y(9,"");g=3Dc&&c.57(a)||""})}B 7(e.3S){u =
+f=3Da.1o(/\\-(\\w)/g,q(m,c){v c.1D()});g=3De.3S[a]||e.3S[f]}v =
+g},31:q(a,c){u =
+r=3D[];c=3Dc||P;6.F(a,q(i,b){7(!b)v;7(b.15=3D=3D3y)b=3Db.3v();7(1g =
+b=3D=3D"1s"){u s=3D6.2C(b).2H(),1x=3Dc.5h("1x"),1N=3D[];u =
+a=3D!s.J("<1H")&&[1,"<2y>","</2y>"]||!s.J("<7g")&&[1,"<52>","</52>"]||(!s=
+.J("<7c")||!s.J("<1z")||!s.J("<7a")||!s.J("<78"))&&[1,"<1r>","</1r>"]||!s=
+.J("<2V")&&[2,"<1r><1z>","</1z></1r>"]||(!s.J("<75")||!s.J("<74"))&&[3,"<=
+1r><1z><2V>","</2V></1z></1r>"]||!s.J("<73")&&[2,"<1r><4W>","</4W></1r>"]=
+||[0,"",""];1x.27=3Da[1]+b+a[2];1v(a[0]--)1x=3D1x.1d;7(6.M.1h){7(!s.J("<1=
+r")&&s.J("<1z")<0)1N=3D1x.1d&&1x.1d.2S;B =
+7(a[1]=3D=3D"<1r>"&&s.J("<1z")<0)1N=3D1x.2S;E(u =
+n=3D1N.C-1;n>=3D0;--n)7(6.Q(1N[n],"1z")&&!1N[n].2S.C)1N[n].L.3q(1N[n])}b=3D=
+6.2L(1x.2S)}7(0=3D=3D=3Db.C&&(!6.Q(b,"34")&&!6.Q(b,"2y")))v;7(b[0]=3D=3DI=
+||6.Q(b,"34")||b.71)r.R(b);B r=3D6.1T(r,b)});v r},1b:q(c,d,a){u =
+e=3D6.40(c)?{}:6.3H;7(e[d]){7(a!=3DI)c[e[d]]=3Da;v c[e[d]]}B =
+7(a=3D=3DI&&6.M.1h&&6.Q(c,"34")&&(d=3D=3D"70"||d=3D=3D"6Y"))v =
+c.6W(d).5R;B =
+7(c.4z){7(a!=3DI)c.6U(d,a);7(6.M.1h&&/4M|2u/.17(d)&&!6.40(c))v =
+c.35(d,2);v =
+c.35(d)}B{7(d=3D=3D"1e"&&6.M.1h){7(a!=3DI){c.5U=3D1;c.1i=3D(c.1i||"").1o(=
+/4L\\([^)]*\\)/,"")+(39(a).3v()=3D=3D"6M"?"":"4L(1e=3D"+a*4X+")")}v =
+c.1i?(39(c.1i.3t(/1e=3D([^)]*)/)[1])/4X).3v():""}d=3Dd.1o(/-([a-z])/6K,q(=
+z,b){v b.1D()});7(a!=3DI)c[d]=3Da;v c[d]}},2C:q(t){v =
+t.1o(/^\\s+|\\s+$/g,"")},2L:q(a){u r=3D[];7(1g a!=3D"6I")E(u =
+i=3D0,26=3Da.C;i<26;i++)r.R(a[i]);B r=3Da.51(0);v r},2w:q(b,a){E(u =
+i=3D0,26=3Da.C;i<26;i++)7(a[i]=3D=3Db)v i;v-1},1T:q(a,b){E(u =
+i=3D0;b[i];i++)a.R(b[i]);v a},5g:q(a){u r=3D[],3P=3D6.1k++;E(u =
+i=3D0,4G=3Da.C;i<4G;i++)7(3P!=3Da[i].1k){a[i].1k=3D3P;r.R(a[i])}v =
+r},1k:0,2s:q(c,b,d){7(1g b=3D=3D"1s")b=3D14 45("a","i","v "+b);u =
+a=3D[];E(u =
+i=3D0,30=3Dc.C;i<30;i++)7(!d&&b(c[i],i)||d&&!b(c[i],i))a.R(c[i]);v =
+a},3k:q(c,b){7(1g b=3D=3D"1s")b=3D14 45("a","v "+b);u d=3D[];E(u =
+i=3D0,30=3Dc.C;i<30;i++){u =
+a=3Db(c[i],i);7(a!=3D=3DH&&a!=3DI){7(a.15!=3D2b)a=3D[a];d=3Dd.6v(a)}}v =
+d}});14 q(){u b=3D6u.6t.2H();6.M=3D{4D:(b.3t(/.+(?:6s|6q|6o|6m)[\\/: =
+]([\\d.]+)/)||[])[1],20:/5l/.17(b),2a:/2a/.17(b),1h:/1h/.17(b)&&!/2a/.17(=
+b),3j:/3j/.17(b)&&!/(6h|5l)/.17(b)};6.6g=3D!6.M.1h||P.6f=3D=3D"6c";6.1U=3D=
+6.M.1h?"1U":"5x",6.3H=3D{"E":"68","67":"12","3x":6.1U,5x:6.1U,1U:6.1U,27:=
+"27",12:"12",2v:"2v",2r:"2r",2B:"2B",65:"63",2T:"2T",62:"5Z"}};6.F({4v:"a=
+.L",4p:"6.4p(a)",8o:"6.22(a,2,\'1X\')",8n:"6.22(a,2,\'4t\')",8k:"6.4q(a.L=
+.1d,a)",8h:"6.4q(a.1d)"},q(i,n){6.11[i]=3Dq(a){u b=3D6.3k(9,n);7(a&&1g =
+a=3D=3D"1s")b=3D6.2x(a,b);v =
+9.1Z(b)}});6.F({5o:"3e",8g:"5w",2K:"5t",8f:"5s"},q(i,n){6.11[i]=3Dq(){u =
+a=3D19;v 9.F(q(){E(u =
+j=3D0,26=3Da.C;j<26;j++)6(a[j])[n](9)})}});6.F({5v:q(a){6.1b(9,a,"");9.8d=
+(a)},8c:q(c){6.12.1A(9,c)},88:q(c){6.12.1E(9,c)},87:q(c){6.12[6.12.3w(9,c=
+)?"1E":"1A"](9,c)},1E:q(a){7(!a||6.1i(a,[9]).r.C)9.L.3q(9)},2Y:q(){1v(9.1=
+d)9.3q(9.1d)}},q(i,n){6.11[i]=3Dq(){v =
+9.F(n,19)}});6.F(["5Q","5P","5O","5N"],q(i,n){6.11[n]=3Dq(a,b){v =
+9.1i(":"+n+"("+a+")",b)}});6.F(["1u","29"],q(i,n){6.11[n]=3Dq(h){v =
+h=3D=3DI?(9.C?6.1f(9[0],n):H):9.1f(n,h.15=3D=3D33?h:h+"4o")}});6.1c({4n:{=
+"":"m[2]=3D=3D\'*\'||6.Q(a,m[2])","#":"a.35(\'2m\')=3D=3Dm[2]",":":{5P:"i=
+<m[3]-0",5O:"i>m[3]-0",22:"m[3]-0=3D=3Di",5Q:"m[3]-0=3D=3Di",2Q:"i=3D=3D0=
+",2P:"i=3D=3Dr.C-1",5L:"i%2=3D=3D0",5K:"i%2","2Q-3u":"a.L.3R(\'*\')[0]=3D=
+=3Da","2P-3u":"6.22(a.L.5J,1,\'4t\')=3D=3Da","86-3u":"!6.22(a.L.5J,2,\'4t=
+\')",4v:"a.1d",2Y:"!a.1d",5N:"(a.5H||a.85||\'\').J(m[3])>=3D0",4f:\'"1y"!=
+=3Da.G&&6.1f(a,"U")!=3D"1P"&&6.1f(a,"48")!=3D"1y"\',1y:\'"1y"=3D=3Da.G||6=
+.1f(a,"U")=3D=3D"1P"||6.1f(a,"48")=3D=3D"1y"\',84:"!a.2r",2r:"a.2r",2B:"a=
+.2B",2T:"a.2T||6.1b(a,\'2T\')",2A:"\'2A\'=3D=3Da.G",4b:"\'4b\'=3D=3Da.G",=
+5F:"\'5F\'=3D=3Da.G",4l:"\'4l\'=3D=3Da.G",5E:"\'5E\'=3D=3Da.G",4k:"\'4k\'=
+=3D=3Da.G",5D:"\'5D\'=3D=3Da.G",5C:"\'5C\'=3D=3Da.G",1J:\'"1J"=3D=3Da.G||=
+6.Q(a,"1J")\',5B:"/5B|2y|82|1J/i.17(a.Q)"},"[":"6.1L(m[2],a).C"},5A:[/^\\=
+[ *(@)([\\w-]+) *([!*$^~=3D]*) *(\'?"?)(.*?)\\4 =
+*\\]/,/^(\\[)\\s*(.*?(\\[.*?\\])?[^[]*?)\\s*\\]/,/^(:)([\\w-]+)\\("?\'?(.=
+*?(\\(.*?\\))?[^(]*?)"?\'?\\)/,14 =
+3o("^([:.#]*)("+(6.2J=3D6.M.20&&6.M.4D<"3.0.0"?"\\\\w":"(?:[\\\\w\\7Z-\\7=
+X*1I-]|\\\\\\\\.)")+"+)")],2x:q(a,c,b){u d,1K=3D[];1v(a&&a!=3Dd){d=3Da;u =
+f=3D6.1i(a,c,b);a=3Df.t.1o(/^\\s*,\\s*/,"");1K=3Db?c=3Df.r:6.1T(1K,f.r)}v=
+ 1K},1L:q(t,l){7(1g =
+t!=3D"1s")v[t];7(l&&!l.1q)l=3DH;l=3Dl||P;7(!t.J("//")){l=3Dl.4h;t=3Dt.2G(=
+2,t.C)}B =
+7(!t.J("/")&&!l.2O){l=3Dl.4h;t=3Dt.2G(1,t.C);7(t.J("/")>=3D1)t=3Dt.2G(t.J=
+("/"),t.C)}u b=3D[l],2j=3D[],2P;1v(t&&2P!=3Dt){u =
+r=3D[];2P=3Dt;t=3D6.2C(t).1o(/^\\/\\//,"");u k=3DN;u g=3D14 =
+3o("^[/>]\\\\s*("+6.2J+"+)");u m=3Dg.1V(t);7(m){u o=3Dm[1].1D();E(u =
+i=3D0;b[i];i++)E(u =
+c=3Db[i].1d;c;c=3Dc.1X)7(c.1q=3D=3D1&&(o=3D=3D"*"||c.Q.1D()=3D=3Do.1D()))=
+r.R(c);b=3Dr;t=3Dt.1o(g,"");7(t.J(" =
+")=3D=3D0)7R;k=3DK}B{g=3D/^((\\/?\\.\\.)|([>\\/+~]))\\s*([a-z]*)/i;7((m=3D=
+g.1V(t))!=3DH){r=3D[];u o=3Dm[4],1k=3D6.1k++;m=3Dm[1];E(u =
+j=3D0,2e=3Db.C;j<2e;j++)7(m.J("..")<0){u =
+n=3Dm=3D=3D"~"||m=3D=3D"+"?b[j].1X:b[j].1d;E(;n;n=3Dn.1X)7(n.1q=3D=3D1){7=
+(m=3D=3D"~"&&n.1k=3D=3D1k)1F;7(!o||n.Q.1D()=3D=3Do.1D()){7(m=3D=3D"~")n.1=
+k=3D1k;r.R(n)}7(m=3D=3D"+")1F}}B =
+r.R(b[j].L);b=3Dr;t=3D6.2C(t.1o(g,""));k=3DK}}7(t&&!k){7(!t.J(",")){7(l=3D=
+=3Db[0])b.4e();2j=3D6.1T(2j,b);r=3Db=3D[l];t=3D" "+t.2G(1,t.C)}B{u =
+h=3D14 3o("^("+6.2J+"+)(#)("+6.2J+"+)");u =
+m=3Dh.1V(t);7(m){m=3D[0,m[2],m[3],m[1]]}B{h=3D14 =
+3o("^([#.]?)("+6.2J+"*)");m=3Dh.1V(t)}m[2]=3Dm[2].1o(/\\\\/g,"");u =
+f=3Db[b.C-1];7(m[1]=3D=3D"#"&&f&&f.4d){u =
+p=3Df.4d(m[2]);7((6.M.1h||6.M.2a)&&p&&1g =
+p.2m=3D=3D"1s"&&p.2m!=3Dm[2])p=3D6(\'[@2m=3D"\'+m[2]+\'"]\',f)[0];b=3Dr=3D=
+p&&(!m[3]||6.Q(p,m[3]))?[p]:[]}B{E(u i=3D0;b[i];i++){u =
+a=3Dm[1]!=3D""||m[0]=3D=3D""?"*":m[2];7(a=3D=3D"*"&&b[i].Q.2H()=3D=3D"7P"=
+)a=3D"2E";r=3D6.1T(r,b[i].3R(a))}7(m[1]=3D=3D".")r=3D6.4c(r,m[2]);7(m[1]=3D=
+=3D"#"){u e=3D[];E(u =
+i=3D0;r[i];i++)7(r[i].35("2m")=3D=3Dm[2]){e=3D[r[i]];1F}r=3De}b=3Dr}t=3Dt=
+.1o(h,"")}}7(t){u =
+d=3D6.1i(t,r);b=3Dr=3Dd.r;t=3D6.2C(d.t)}}7(t)b=3D[];7(b&&l=3D=3Db[0])b.4e=
+();2j=3D6.1T(2j,b);v 2j},4c:q(r,m,a){m=3D" "+m+" ";u b=3D[];E(u =
+i=3D0;r[i];i++){u c=3D(" "+r[i].12+" =
+").J(m)>=3D0;7(!a&&c||a&&!c)b.R(r[i])}v b},1i:q(t,r,h){u =
+d;1v(t&&t!=3Dd){d=3Dt;u p=3D6.5A,m;E(u =
+i=3D0;p[i];i++){m=3Dp[i].1V(t);7(m){t=3Dt.7N(m[0].C);m[2]=3Dm[2].1o(/\\\\=
+/g,"");1F}}7(!m)1F;7(m[1]=3D=3D":"&&m[2]=3D=3D"4Y")r=3D6.1i(m[3],r,K).r;B=
+ 7(m[1]=3D=3D".")r=3D6.4c(r,m[2],h);B 7(m[1]=3D=3D"@"){u =
+g=3D[],G=3Dm[3];E(u i=3D0,2e=3Dr.C;i<2e;i++){u =
+a=3Dr[i],z=3Da[6.3H[m[2]]||m[2]];7(z=3D=3DH||/4M|2u/.17(m[2]))z=3D6.1b(a,=
+m[2])||\'\';7((G=3D=3D""&&!!z||G=3D=3D"=3D"&&z=3D=3Dm[5]||G=3D=3D"!=3D"&&=
+z!=3Dm[5]||G=3D=3D"^=3D"&&z&&!z.J(m[5])||G=3D=3D"$=3D"&&z.2G(z.C-m[5].C)=3D=
+=3Dm[5]||(G=3D=3D"*=3D"||G=3D=3D"~=3D")&&z.J(m[5])>=3D0)^h)g.R(a)}r=3Dg}B=
+ 7(m[1]=3D=3D":"&&m[2]=3D=3D"22-3u"){u =
+e=3D6.1k++,g=3D[],17=3D/(\\d*)n\\+?(\\d*)/.1V(m[3]=3D=3D"5L"&&"2n"||m[3]=3D=
+=3D"5K"&&"2n+1"||!/\\D/.17(m[3])&&"n+"+m[3]||m[3]),2Q=3D(17[1]||1)-0,d=3D=
+17[2]-0;E(u i=3D0,2e=3Dr.C;i<2e;i++){u j=3Dr[i],L=3Dj.L;7(e!=3DL.1k){u =
+c=3D1;E(u n=3DL.1d;n;n=3Dn.1X)7(n.1q=3D=3D1)n.4a=3Dc++;L.1k=3De}u =
+b=3DN;7(2Q=3D=3D1){7(d=3D=3D0||j.4a=3D=3Dd)b=3DK}B =
+7((j.4a+d)%2Q=3D=3D0)b=3DK;7(b^h)g.R(j)}r=3Dg}B{u f=3D6.4n[m[1]];7(1g =
+f!=3D"1s")f=3D6.4n[m[1]][m[2]];49("f =3D q(a,i){v =
+"+f+"}");r=3D6.2s(r,f,h)}}v{r:r,t:t}},4p:q(c){u b=3D[];u =
+a=3Dc.L;1v(a&&a!=3DP){b.R(a);a=3Da.L}v b},22:q(a,e,c,b){e=3De||1;u =
+d=3D0;E(;a;a=3Da[c])7(a.1q=3D=3D1&&++d=3D=3De)1F;v a},4q:q(n,a){u =
+r=3D[];E(;n;n=3Dn.1X){7(n.1q=3D=3D1&&(!a||n!=3Da))r.R(n)}v =
+r}});6.S=3D{1A:q(d,e,c,b){7(6.M.1h&&d.3m!=3DI)d=3D18;7(!c.1Q)c.1Q=3D9.1Q+=
++;7(b!=3DI){u f=3Dc;c=3Dq(){v =
+f.O(9,19)};c.W=3Db;c.1Q=3Df.1Q}7(!d.$1a)d.$1a=3D{};7(!d.$1p)d.$1p=3Dq(){u=
+ a;7(1g 6=3D=3D"I"||6.S.47)v a;a=3D6.S.1p.O(d,19);v a};u =
+g=3Dd.$1a[e];7(!g){g=3Dd.$1a[e]=3D{};7(d.46)d.46(e,d.$1p,N);B =
+d.7M("5r"+e,d.$1p)}g[c.1Q]=3Dc;7(!9.Y[e])9.Y[e]=3D[];7(6.2w(d,9.Y[e])=3D=3D=
+-1)9.Y[e].R(d)},1Q:1,Y:{},1E:q(b,c,a){u =
+d=3Db.$1a,1Y,2p;7(d){7(c&&c.G){a=3Dc.44;c=3Dc.G}7(!c){E(c V =
+d)9.1E(b,c)}B 7(d[c]){7(a)3l d[c][a.1Q];B E(a V b.$1a[c])3l d[c][a];E(1Y =
+V d[c])1F;7(!1Y){7(b.43)b.43(c,b.$1p,N);B b.7J("5r"+c,b.$1p);1Y=3DH;3l =
+d[c];1v(9.Y[c]&&((2p=3D6.2w(b,9.Y[c]))>=3D0))3l 9.Y[c][2p]}}E(1Y V =
+d)1F;7(!1Y)b.$1p=3Db.$1a=3DH}},1t:q(c,b,d){b=3D6.2L(b||[]);7(!d)6.F(9.Y[c=
+]||[],q(){6.S.1t(c,b,9)});B{u =
+a,1Y,11=3D6.16(d[c]||H);b.5p(9.42({G:c,1O:d}));7(6.16(d.$1p)&&(a=3Dd.$1p.=
+O(d,b))!=3D=3DN)9.47=3DK;7(11&&a!=3D=3DN&&!6.Q(d,\'a\'))d[c]();9.47=3DN}}=
+,1p:q(b){u a;b=3D6.S.42(b||18.S||{});u =
+c=3D9.$1a&&9.$1a[b.G],1S=3D[].51.3D(19,1);1S.5p(b);E(u j V =
+c){1S[0].44=3Dc[j];1S[0].W=3Dc[j].W;7(c[j].O(9,1S)=3D=3D=3DN){b.2d();b.2D=
+();a=3DN}}7(6.M.1h)b.1O=3Db.2d=3Db.2D=3Db.44=3Db.W=3DH;v a},42:q(c){u =
+a=3Dc;c=3D6.1c({},a);c.2d=3Dq(){7(a.2d)v =
+a.2d();a.7H=3DN};c.2D=3Dq(){7(a.2D)v =
+a.2D();a.7F=3DK};7(!c.1O&&c.5n)c.1O=3Dc.5n;7(6.M.20&&c.1O.1q=3D=3D3)c.1O=3D=
+a.1O.L;7(!c.41&&c.4j)c.41=3Dc.4j=3D=3Dc.1O?c.7C:c.4j;7(c.5k=3D=3DH&&c.5j!=
+=3DH){u =
+e=3DP.4h,b=3DP.4y;c.5k=3Dc.5j+(e&&e.5i||b.5i);c.7z=3Dc.7y+(e&&e.5f||b.5f)=
+}7(!c.3h&&(c.5e||c.5d))c.3h=3Dc.5e||c.5d;7(!c.5c&&c.5b)c.5c=3Dc.5b;7(!c.3=
+h&&c.1J)c.3h=3D(c.1J&1?1:(c.1J&2?3:(c.1J&4?2:0)));v =
+c}};6.11.1c({3g:q(c,a,b){v =
+c=3D=3D"3z"?9.3Z(c,a,b):9.F(q(){6.S.1A(9,c,b||a,b&&a)})},3Z:q(d,b,c){v =
+9.F(q(){6.S.1A(9,d,q(a){6(9).3U(a);v(c||b).O(9,19)},c&&b)})},3U:q(a,b){v =
+9.F(q(){6.S.1E(9,a,b)})},1t:q(a,b){v 9.F(q(){6.S.1t(a,b,9)})},1R:q(){u =
+a=3D19;v 9.5a(q(e){9.4u=3D0=3D=3D9.4u?1:0;e.2d();v =
+a[9.4u].O(9,[e])||N})},7w:q(f,g){q 3W(e){u =
+p=3De.41;1v(p&&p!=3D9)2g{p=3Dp.L}25(e){p=3D9};7(p=3D=3D9)v =
+N;v(e.G=3D=3D"3V"?f:g).O(9,[e])}v =
+9.3V(3W).59(3W)},1G:q(f){7(6.3d)f.O(P,[6]);B 6.2q.R(q(){v f.O(9,[6])});v =
+9}});6.1c({3d:N,2q:[],1G:q(){7(!6.3d){6.3d=3DK;7(6.2q){6.F(6.2q,q(){9.O(P=
+)});6.2q=3DH}7(6.M.3j||6.M.2a)P.43("58",6.1G,N);7(!18.7v.C)6(18).1W(q(){6=
+("#3T").1E()})}}});14 =
+q(){6.F(("7u,7t,1W,7s,7r,3z,5a,7q,"+"7p,7o,7n,3V,59,7m,2y,"+"4k,7l,7k,7j,=
+2c").2R(","),q(i,o){6.11[o]=3Dq(f){v =
+f?9.3g(o,f):9.1t(o)}});7(6.M.3j||6.M.2a)P.46("58",6.1G,N);B =
+7(6.M.1h){P.7i("<7h"+"7f 2m=3D3T 7e=3DK "+"2u=3D//:><\\/3b>");u =
+a=3DP.4d("3T");7(a)a.7d=3Dq(){7(9.3a!=3D"1n")v;6.1G()};a=3DH}B =
+7(6.M.20)6.3N=3D3m(q(){7(P.3a=3D=3D"79"||P.3a=3D=3D"1n"){3M(6.3N);6.3N=3D=
+H;6.1G()}},10);6.S.1A(18,"1W",6.1G)};7(6.M.1h)6(18).3Z("3z",q(){u =
+a=3D6.S.Y;E(u b V a){u c=3Da[b],i=3Dc.C;7(i&&b!=3D\'3z\')77 =
+c[i-1]&&6.S.1E(c[i-1],b);1v(--i)}});6.11.1c({76:q(c,b,a){9.1W(c,b,a,1)},1=
+W:q(g,d,c,e){7(6.16(g))v 9.3g("1W",g);c=3Dc||q(){};u =
+f=3D"3K";7(d)7(6.16(d)){c=3Dd;d=3DH}B{d=3D6.2E(d);f=3D"50"}u =
+h=3D9;6.2Z({1C:g,G:f,W:d,2t:e,1n:q(a,b){7(b=3D=3D"28"||!e&&b=3D=3D"4V")h.=
+1b("27",a.3c).3J().F(c,[a.3c,b,a]);B c.O(h,[a.3c,b,a])}});v 9},72:q(){v =
+6.2E(9)},3J:q(){v 9.1L("3b").F(q(){7(9.2u)6.4U(9.2u);B =
+6.3I(9.2A||9.5H||9.27||"")}).2U()}});6.F("4T,4I,4S,4R,4Q,4P".2R(","),q(i,=
+o){6.11[o]=3Dq(f){v =
+9.3g(o,f)}});6.1c({1M:q(e,c,a,d,b){7(6.16(c)){a=3Dc;c=3DH}v =
+6.2Z({G:"3K",1C:e,W:c,28:a,3G:d,2t:b})},6X:q(d,b,a,c){v =
+6.1M(d,b,a,c,1)},4U:q(b,a){v 6.1M(b,H,a,"3b")},6V:q(c,b,a){v =
+6.1M(c,b,a,"4N")},6T:q(d,b,a,c){7(6.16(b)){a=3Db;b=3D{}}v =
+6.2Z({G:"50",1C:d,W:b,28:a,3G:c})},6S:q(a){6.36.21=3Da},6Q:q(a){6.1c(6.36=
+,a)},36:{Y:K,G:"3K",21:0,4O:"6P/x-6O-34-6N",4K:K,38:K,W:H},32:{},2Z:q(s){=
+s=3D6.1c({},6.36,s);7(s.W){7(s.4K&&1g =
+s.W!=3D"1s")s.W=3D6.2E(s.W);7(s.G.2H()=3D=3D"1M"){s.1C+=3D((s.1C.J("?")>-=
+1)?"&":"?")+s.W;s.W=3DH}}7(s.Y&&!6.3L++)6.S.1t("4T");u f=3DN;u =
+h=3D18.4Z?14 4Z("6L.6J"):14 =
+4J();h.7b(s.G,s.1C,s.38);7(s.W)h.3Q("6H-6G",s.4O);7(s.2t)h.3Q("6F-3O-6D",=
+6.32[s.1C]||"6C, 6B 6A 6z 4r:4r:4r =
+6y");h.3Q("X-6x-6w","4J");7(s.56)s.56(h);7(s.Y)6.S.1t("4P",[h,s]);u =
+g=3Dq(d){7(h&&(h.3a=3D=3D4||d=3D=3D"21")){f=3DK;7(i){3M(i);i=3DH}u =
+c;2g{c=3D6.54(h)&&d!=3D"21"?s.2t&&6.4F(h,s.1C)?"4V":"28":"2c";7(c!=3D"2c"=
+){u b;2g{b=3Dh.3E("53-3O")}25(e){}7(s.2t&&b)6.32[s.1C]=3Db;u =
+a=3D6.55(h,s.3G);7(s.28)s.28(a,c);7(s.Y)6.S.1t("4Q",[h,s])}B =
+6.2X(s,h,c)}25(e){c=3D"2c";6.2X(s,h,c,e)}7(s.Y)6.S.1t("4S",[h,s]);7(s.Y&&=
+!--6.3L)6.S.1t("4I");7(s.1n)s.1n(h,c);7(s.38)h=3DH}};u =
+i=3D3m(g,13);7(s.21>0)4C(q(){7(h){h.6r();7(!f)g("21")}},s.21);2g{h.6p(s.W=
+)}25(e){6.2X(s,h,H,e)}7(!s.38)g();v =
+h},2X:q(s,a,b,e){7(s.2c)s.2c(a,b,e);7(s.Y)6.S.1t("4R",[a,s,e])},3L:0,54:q=
+(r){2g{v!r.23&&7A.7B=3D=3D"4l:"||(r.23>=3D5u&&r.23<6l)||r.23=3D=3D5m||6.M=
+.20&&r.23=3D=3DI}25(e){}v N},4F:q(a,c){2g{u b=3Da.3E("53-3O");v =
+a.23=3D=3D5m||b=3D=3D6.32[c]||6.M.20&&a.23=3D=3DI}25(e){}v =
+N},55:q(r,b){u c=3Dr.3E("6k-G");u =
+a=3D!b&&c&&c.J("4B")>=3D0;a=3Db=3D=3D"4B"||a?r.6j:r.3c;7(b=3D=3D"3b")6.3I=
+(a);7(b=3D=3D"4N")a=3D49("("+a+")");7(b=3D=3D"3F")6("<1x>").3F(a).3J();v =
+a},2E:q(a){u =
+s=3D[];7(a.15=3D=3D2b||a.3C)6.F(a,q(){s.R(2l(9.6i)+"=3D"+2l(9.2v))});B =
+E(u j V =
+a)7(a[j]&&a[j].15=3D=3D2b)6.F(a[j],q(){s.R(2l(j)+"=3D"+2l(9))});B =
+s.R(2l(j)+"=3D"+2l(a[j]));v s.5M("&")},3I:q(a){7(18.4A)18.4A(a);B =
+7(6.M.20)18.4C(a,0);B 49.3D(18,a)}});6.11.1c({1m:q(b,a){v =
+b?9.1w({1u:"1m",29:"1m",1e:"1m"},b,a):9.1i(":1y").F(q(){9.T.U=3D9.2i?9.2i=
+:"";7(6.1f(9,"U")=3D=3D"1P")9.T.U=3D"2h"}).2U()},1j:q(b,a){v =
+b?9.1w({1u:"1j",29:"1j",1e:"1j"},b,a):9.1i(":4f").F(q(){9.2i=3D9.2i||6.1f=
+(9,"U");7(9.2i=3D=3D"1P")9.2i=3D"2h";9.T.U=3D"1P"}).2U()},5G:6.11.1R,1R:q=
+(a,b){v =
+6.16(a)&&6.16(b)?9.5G(a,b):a?9.1w({1u:"1R",29:"1R",1e:"1R"},a,b):9.F(q(){=
+6(9)[6(9).37(":1y")?"1m":"1j"]()})},6e:q(b,a){v =
+9.1w({1u:"1m"},b,a)},6d:q(b,a){v 9.1w({1u:"1j"},b,a)},6b:q(b,a){v =
+9.1w({1u:"1R"},b,a)},6a:q(b,a){v 9.1w({1e:"1m"},b,a)},69:q(b,a){v =
+9.1w({1e:"1j"},b,a)},7U:q(c,a,b){v 9.1w({1e:a},c,b)},1w:q(d,h,f,g){v =
+9.1l(q(){u c=3D6(9).37(":1y"),1H=3D6.5z(h,f,g),5y=3D9;E(u p V =
+d){7(d[p]=3D=3D"1j"&&c||d[p]=3D=3D"1m"&&!c)v =
+6.16(1H.1n)&&1H.1n.O(9);7(p=3D=3D"1u"||p=3D=3D"29"){1H.U=3D6.1f(9,"U");1H=
+.2f=3D9.T.2f}}7(1H.2f!=3DH)9.T.2f=3D"1y";9.2k=3D6.1c({},d);6.F(d,q(a,b){u=
+ e=3D14 6.2M(5y,1H,a);7(b.15=3D=3D3y)e.2W(e.1K(),b);B =
+e[b=3D=3D"1R"?c?"1m":"1j":b](d)})})},1l:q(a,b){7(!b){b=3Da;a=3D"2M"}v =
+9.F(q(){7(!9.1l)9.1l=3D{};7(!9.1l[a])9.1l[a]=3D[];9.1l[a].R(b);7(9.1l[a].=
+C=3D=3D1)b.O(9)})}});6.1c({5z:q(b,a,c){u =
+d=3Db&&b.15=3D=3D64?b:{1n:c||!c&&a||6.16(b)&&b,1B:b,2I:c&&a||a&&a.15!=3D4=
+5&&a||(6.2I.4i?"4i":"4w")};d.1B=3D(d.1B&&d.1B.15=3D=3D3y?d.1B:{61:60,89:5=
+u}[d.1B])||8a;d.2N=3Dd.1n;d.1n=3Dq(){6.5I(9,"2M");7(6.16(d.2N))d.2N.O(9)}=
+;v d},2I:{4w:q(p,n,b,a){v =
+b+a*p},4i:q(p,n,b,a){v((-5W.5X(p*5W.8e)/2)+0.5)*a+b}},1l:{},5I:q(b,a){a=3D=
+a||"2M";7(b.1l&&b.1l[a]){b.1l[a].4e();u =
+f=3Db.1l[a][0];7(f)f.O(b)}},3B:[],2M:q(f,e,g){u z=3D9;u =
+y=3Df.T;z.a=3Dq(){7(e.3A)e.3A.O(f,[z.2o]);7(g=3D=3D"1e")6.1b(y,"1e",z.2o)=
+;B{y[g]=3D8m(z.2o)+"4o";y.U=3D"2h"}};z.5V=3Dq(){v =
+39(6.1f(f,g))};z.1K=3Dq(){u r=3D39(6.2z(f,g));v =
+r&&r>-8l?r:z.5V()};z.2W=3Dq(c,b){z.4s=3D(14 =
+5T()).5S();z.2o=3Dc;z.a();6.3B.R(q(){v z.3A(c,b)});7(6.3B.C=3D=3D1){u =
+d=3D3m(q(){u a=3D6.3B;E(u =
+i=3D0;i<a.C;i++)7(!a[i]())a.8j(i--,1);7(!a.C)3M(d)},13)}};z.1m=3Dq(){7(!f=
+.24)f.24=3D{};f.24[g]=3D6.1b(f.T,g);e.1m=3DK;z.2W(0,9.1K());7(g!=3D"1e")y=
+[g]=3D"8q";6(f).1m()};z.1j=3Dq(){7(!f.24)f.24=3D{};f.24[g]=3D6.1b(f.T,g);=
+e.1j=3DK;z.2W(9.1K(),0)};z.3A=3Dq(a,c){u t=3D(14 =
+5T()).5S();7(t>e.1B+z.4s){z.2o=3Dc;z.a();7(f.2k)f.2k[g]=3DK;u b=3DK;E(u =
+i V =
+f.2k)7(f.2k[i]!=3D=3DK)b=3DN;7(b){7(e.U!=3DH){y.2f=3De.2f;y.U=3De.U;7(6.1=
+f(f,"U")=3D=3D"1P")y.U=3D"2h"}7(e.1j)y.U=3D"1P";7(e.1j||e.1m)E(u p V =
+f.2k)6.1b(y,p,f.24[p])}7(b&&6.16(e.1n))e.1n.O(f);v N}B{u n=3Dt-9.4s;u =
+p=3Dn/e.1B;z.2o=3D6.2I[e.2I](p,n,a,(c-a),e.1B);z.a()}v =
+K}}})}',62,524,'||||||jQuery|if||this|||||||||||||||||function||||var|ret=
+urn||||||else|length||for|each|type|null|undefined|indexOf|true|parentNod=
+e|browser|false|apply|document|nodeName|push|event|style|display|in|data|=
+|global|||fn|className||new|constructor|isFunction|test|window|arguments|=
+events|attr|extend|firstChild|opacity|css|typeof|msie|filter|hide|mergeNu=
+m|queue|show|complete|replace|handle|nodeType|table|string|trigger|height=
+|while|animate|div|hidden|tbody|add|duration|url|toUpperCase|remove|break=
+|ready|opt|_|button|cur|find|get|tb|target|none|guid|toggle|args|merge|st=
+yleFloat|exec|load|nextSibling|ret|pushStack|safari|timeout|nth|status|or=
+ig|catch|al|innerHTML|success|width|opera|Array|error|preventDefault|rl|o=
+verflow|try|block|oldblock|done|curAnim|encodeURIComponent|id||now|index|=
+readyList|disabled|grep|ifModified|src|value|inArray|multiFilter|select|c=
+urCSS|text|checked|trim|stopPropagation|param|domManip|substr|toLowerCase=
+|easing|chars|insertBefore|makeArray|fx|old|ownerDocument|last|first|spli=
+t|childNodes|selected|end|tr|custom|handleError|empty|ajax|el|clean|lastM=
+odified|String|form|getAttribute|ajaxSettings|is|async|parseFloat|readySt=
+ate|script|responseText|isReady|append|defaultView|bind|which|position|mo=
+zilla|map|delete|setInterval|static|RegExp|oWidth|removeChild|oHeight|clo=
+neNode|match|child|toString|has|float|Number|unload|step|timers|jquery|ca=
+ll|getResponseHeader|html|dataType|props|globalEval|evalScripts|GET|activ=
+e|clearInterval|safariTimer|Modified|num|setRequestHeader|getElementsByTa=
+gName|currentStyle|__ie_init|unbind|mouseover|handleHover|init|getCompute=
+dStyle|one|isXMLDoc|relatedTarget|fix|removeEventListener|handler|Functio=
+n|addEventListener|triggered|visibility|eval|nodeIndex|radio|classFilter|=
+getElementById|shift|visible|appendChild|documentElement|swing|fromElemen=
+t|submit|file|swap|expr|px|parents|sibling|00|startTime|previousSibling|l=
+astToggle|parent|linear|ol|body|tagName|execScript|xml|setTimeout|version=
+|setArray|httpNotModified|fl|prop|ajaxStop|XMLHttpRequest|processData|alp=
+ha|href|json|contentType|ajaxSend|ajaxSuccess|ajaxError|ajaxComplete|ajax=
+Start|getScript|notmodified|colgroup|100|not|ActiveXObject|POST|slice|fie=
+ldset|Last|httpSuccess|httpData|beforeSend|getPropertyValue|DOMContentLoa=
+ded|mouseout|click|ctrlKey|metaKey|keyCode|charCode|scrollTop|unique|crea=
+teElement|scrollLeft|clientX|pageX|webkit|304|srcElement|appendTo|unshift=
+|prevObject|on|after|before|200|removeAttr|prepend|cssFloat|self|speed|pa=
+rse|input|reset|image|password|checkbox|_toggle|textContent|dequeue|lastC=
+hild|odd|even|join|contains|gt|lt|eq|nodeValue|getTime|Date|zoom|max|Math=
+|cos|font|maxLength|600|slow|maxlength|readOnly|Object|readonly|createTex=
+tNode|class|htmlFor|fadeOut|fadeIn|slideToggle|CSS1Compat|slideUp|slideDo=
+wn|compatMode|boxModel|compatible|name|responseXML|content|300|ie|noConfl=
+ict|ra|send|it|abort|rv|userAgent|navigator|concat|With|Requested|GMT|197=
+0|Jan|01|Thu|Since|reverse|If|Type|Content|array|XMLHTTP|ig|Microsoft|NaN=
+|urlencoded|www|application|ajaxSetup|val|ajaxTimeout|post|setAttribute|g=
+etJSON|getAttributeNode|getIfModified|method|FORM|action|options|serializ=
+e|col|th|td|loadIfModified|do|colg|loaded|tfoot|open|thead|onreadystatech=
+ange|defer|ipt|leg|scr|write|keyup|keypress|keydown|change|mousemove|mous=
+eup|mousedown|dblclick|scroll|resize|focus|blur|frames|hover|clone|client=
+Y|pageY|location|protocol|toElement|clientWidth|clientHeight|cancelBubble=
+|relative|returnValue|left|detachEvent|right|absolute|attachEvent|substri=
+ng|offsetWidth|object|offsetHeight|continue|Width|border|fadeTo|padding|s=
+ize|uFFFF|Left|u0128|Right|Bottom|textarea|Top|enabled|innerText|only|tog=
+gleClass|removeClass|fast|400|wrap|addClass|removeAttribute|PI|insertAfte=
+r|prependTo|children|line|splice|siblings|10000|parseInt|prev|next|weight=
+|1px|prototype'.split('|'),0,{}))
+------=_NextPart_000_0000_01CB7C6D.418CB110
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://fromvega.com/code/easydrag/jquery.easydrag.js
+
+/**
+* EasyDrag 1.4 - Drag & Drop jQuery Plug-in
+*
+* Thanks for the community that is helping the improvement
+* of this little piece of code.
+*
+* For usage instructions please visit http://fromvega.com
+*/
+
+(function($){
+
+	// to track if the mouse button is pressed
+	var isMouseDown    =3D false;
+
+	// to track the current element being dragged
+	var currentElement =3D null;
+
+	// callback holders
+	var dropCallbacks =3D {};
+	var dragCallbacks =3D {};
+
+	// global position records
+	var lastMouseX;
+	var lastMouseY;
+	var lastElemTop;
+	var lastElemLeft;
+=09
+	// track element dragStatus
+	var dragStatus =3D {};=09
+
+	// returns the mouse (cursor) current position
+	$.getMousePosition =3D function(e){
+		var posx =3D 0;
+		var posy =3D 0;
+
+		if (!e) var e =3D window.event;
+
+		if (e.pageX || e.pageY) {
+			posx =3D e.pageX;
+			posy =3D e.pageY;
+		}
+		else if (e.clientX || e.clientY) {
+			posx =3D e.clientX + document.body.scrollLeft + =
+document.documentElement.scrollLeft;
+			posy =3D e.clientY + document.body.scrollTop  + =
+document.documentElement.scrollTop;
+		}
+
+		return { 'x': posx, 'y': posy };
+	};
+
+	// updates the position of the current element being dragged
+	$.updatePosition =3D function(e) {
+		var pos =3D $.getMousePosition(e);
+
+		var spanX =3D (pos.x - lastMouseX);
+		var spanY =3D (pos.y - lastMouseY);
+
+		$(currentElement).css("top",  (lastElemTop + spanY));
+		$(currentElement).css("left", (lastElemLeft + spanX));
+	};
+
+	// when the mouse is moved while the mouse button is pressed
+	$(document).mousemove(function(e){
+		if(isMouseDown && dragStatus[currentElement.id] =3D=3D 'on'){
+			// update the position and call the registered function
+			$.updatePosition(e);
+			if(dragCallbacks[currentElement.id] !=3D undefined){
+				dragCallbacks[currentElement.id](e, currentElement);
+			}
+
+			return false;
+		}
+	});
+
+	// when the mouse button is released
+	$(document).mouseup(function(e){
+		if(isMouseDown && dragStatus[currentElement.id] =3D=3D 'on'){
+			isMouseDown =3D false;
+			if(dropCallbacks[currentElement.id] !=3D undefined){
+				dropCallbacks[currentElement.id](e, currentElement);
+			}
+
+			return false;
+		}
+	});
+
+	// register the function to be called while an element is being dragged
+	$.fn.ondrag =3D function(callback){
+		return this.each(function(){
+			dragCallbacks[this.id] =3D callback;
+		});
+	};
+
+	// register the function to be called when an element is dropped
+	$.fn.ondrop =3D function(callback){
+		return this.each(function(){
+			dropCallbacks[this.id] =3D callback;
+		});
+	};
+=09
+	// stop the element dragging feature
+	$.fn.dragOff =3D function(){
+		return this.each(function(){
+			dragStatus[this.id] =3D 'off';
+		});
+	};
+=09
+=09
+	$.fn.dragOn =3D function(){
+		return this.each(function(){
+			dragStatus[this.id] =3D 'on';
+		});
+	};
+
+	// set an element as draggable - allowBubbling enables/disables event =
+bubbling
+	$.fn.easydrag =3D function(allowBubbling){
+
+		return this.each(function(){
+
+			// if no id is defined assign a unique one
+			if(undefined =3D=3D this.id || !this.id.length) this.id =3D =
+"easydrag"+(new Date().getTime());
+
+			// set dragStatus=20
+			dragStatus[this.id] =3D "on";
+		=09
+			// change the mouse pointer
+			$(this).css("cursor", "move");
+
+			// when an element receives a mouse press
+			$(this).mousedown(function(e){
+
+				// set it as absolute positioned
+				$(this).css("position", "absolute");
+
+				// set z-index
+				$(this).css("z-index", "10000");
+
+				// update track variables
+				isMouseDown    =3D true;
+				currentElement =3D this;
+
+				// retrieve positioning properties
+				var pos    =3D $.getMousePosition(e);
+				lastMouseX =3D pos.x;
+				lastMouseY =3D pos.y;
+
+				lastElemTop  =3D this.offsetTop;
+				lastElemLeft =3D this.offsetLeft;
+
+				$.updatePosition(e);
+
+				return allowBubbling ? true : false;
+			});
+		});
+	};
+
+})(jQuery);
+------=_NextPart_000_0000_01CB7C6D.418CB110--
